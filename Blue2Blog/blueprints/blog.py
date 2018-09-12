@@ -4,7 +4,7 @@
 from flask import Blueprint, current_app
 from flask import render_template, request
 
-from Blue2Blog.models import Post
+from Blue2Blog.models import Post, Category
 
 blog_bp = Blueprint('blog', __name__)
 
@@ -35,7 +35,16 @@ def about():
 
 @blog_bp.route('/category/<int:category_id>')
 def show_category(category_id):
-	return render_template('blog/category.html')
+	category = Category.query.get_or_404(category_id)
+	page = request.args.get('page', 1, type=int)
+	per_page = current_app.config.get('BLUE2BLOG_POST_PER_PAGE', 15)
+	pagination = Post.query.with_parent(category).order_by(Post.timestamp.desc()).paginate(page, per_page=per_page)
+	posts = pagination.items
+	context = {}
+	context.update(posts=posts)
+	context.update(category=category)
+	context.update(pagination=pagination)
+	return render_template('blog/category.html', **context)
 
 
 @blog_bp.route('/post/<int:post_id>', methods=['GET', 'POST'])

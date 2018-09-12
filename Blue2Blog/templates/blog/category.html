@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% from 'bootstrap/pagination.html' import render_pagination %}
 
-</body>
-</html>
+{% block title %}
+    {{ category.name }}
+{% endblock title %}
+
+{% block content %}
+    <div class="page-header">
+        <h3>Category: {{ category.name }}</h3>
+        <p class="text-muted">{{ category.posts|length }}</p>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            {% include 'blog/_posts.html' %}
+            <div class="page-footer">{{ render_pagination(pagination) }}
+            </div>
+        </div>
+        <div class="col-sm-4">
+            {% include 'blog/_sidebar.html' %}
+        </div>
+    </div>
+{% endblock content %}
