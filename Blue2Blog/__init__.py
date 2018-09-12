@@ -13,6 +13,7 @@ from Blue2Blog.blueprints.auth import auth_bp
 from Blue2Blog.blueprints.blog import blog_bp
 from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor
 from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_posts
+from Blue2Blog.models import Admin, Category
 
 
 def create_app(config_name=None):
@@ -30,7 +31,6 @@ def create_app(config_name=None):
 	register_extensions(app)
 	register_shell_context(app)
 	register_template_context(app)
-	register_commands(app)
 
 	return app
 
@@ -59,7 +59,11 @@ def register_shell_context(app):
 
 
 def register_template_context(app):
-	pass
+	@app.context_processor
+	def make_template_context():
+		admin = Admin.query.first()
+		categories = Category.query.order_by(Category.name).all()
+		return dict(admin=admin, categories=categories)
 
 
 def register_errors(app):
@@ -67,9 +71,6 @@ def register_errors(app):
 	@app.errorhandler(404)
 	def bad_request(e):
 		return render_template('errors/400.html'), 400
-
-
-# app = create_app(None)
 
 
 def register_commands(app):
