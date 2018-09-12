@@ -13,7 +13,7 @@ class BaseConfig(object):
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 	MAIL_SERVER = os.getenv('MAIL_SERVER')
-	MAIL_PORT = 465
+	MAIL_PORT = 25
 	MAIL_USE_SSL = True
 	MAIL_USERNAME = os.getenv('MAIL_USERNAME')
 	MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
@@ -36,6 +36,7 @@ class TestingConfig(BaseConfig):
 	TESTING = True
 	WTF_CSRF_ENABLED = False
 	SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory'
+	DEBUG = True
 
 
 class ProductionConfig(BaseConfig):
