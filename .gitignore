@@ -1,0 +1,5 @@
+
+.flaskenv
+.gitignore
+.idea/
+data-dev.db
