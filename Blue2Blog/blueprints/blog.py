@@ -17,3 +17,8 @@ def index():
 @blog_bp.route('/about')
 def about():
 	pass
+
+
+@blog_bp.route('/show_category')
+def show_category():
+	pass
