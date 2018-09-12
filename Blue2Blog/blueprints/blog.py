@@ -40,4 +40,7 @@ def show_category(category_id):
 
 @blog_bp.route('/post/<int:post_id>', methods=['GET', 'POST'])
 def show_post(post_id):
-	return render_template('blog/post.html')
+	post = Post.query.get_or_404(post_id)
+	context = {}
+	context.update(post=post)
+	return render_template('blog/post.html', **context)

@@ -3,6 +3,10 @@
 {% from 'bootstrap/pagination.html' import render_pagination %}
 
 {% block content %}
+{#    <div class="page-header">#}
+{#        <h1 class="display-3">{{ admin.blog_title|default('Blog Title') }}</h1>#}
+{#        <h4 class="text-muted">&nbsp;{{ admin.blog_sub_title|default('Blog Subtitle') }}</h4>#}
+{#    </div>#}
     {% if posts %}
         {% for post in posts %}
             <h3 class="text-primary">
@@ -37,8 +41,3 @@
         </div>
     {% endif %}
 {% endblock content %}
-
-{#<div class="page-header">#}
-{#    <h1 class="display-3">{{ admin.blog_title|default('Blog Title') }}</h1>#}
-{#    <h4 class="text-muted">&nbsp;{{ admin.blog_sub_title|default('Blog Subtitle') }}</h4>#}
-{#</div>#}
