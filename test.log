@@ -206,3 +206,104 @@
 2018/09/15 18:03:59 22448 blog.py show_post 122 comment_id = 608
 2018/09/15 18:03:59 22448 blog.py show_post 126 replied_comment.id = 608
 2018/09/15 18:03:59 20500 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42
+2018/09/15 22:02:36 8196 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 22:02:36 8196 utils.py _log 33 now time is 2018-09-15 22:02:36.097447
+2018/09/15 22:02:36 8196 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 22:02:37 10728 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 22:02:37 10728 utils.py _log 33 now time is 2018-09-15 22:02:37.021303
+2018/09/15 22:02:37 10728 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 22:02:50 2228 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:03:46 12368 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 22:03:46 12368 utils.py _log 33 now time is 2018-09-15 22:03:46.855126
+2018/09/15 22:03:46 12368 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 22:04:19 14160 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 22:04:19 14160 utils.py _log 33 now time is 2018-09-15 22:04:19.229685
+2018/09/15 22:04:19 14160 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 22:04:24 7904 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:05:31 13272 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:05:32 1684 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:06:37 10224 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 22:06:37 10224 utils.py _log 33 now time is 2018-09-15 22:06:37.034770
+2018/09/15 22:06:37 10224 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 22:06:40 1720 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:06:47 9416 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2F%3F
+2018/09/15 22:06:47 9416 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/15 22:06:47 3340 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:07:22 13628 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/block_swan?next=%2F%3F
+2018/09/15 22:07:22 13628 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/15 22:07:22 2584 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:07:39 11868 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 22:07:39 11868 utils.py _log 33 now time is 2018-09-15 22:07:39.994352
+2018/09/15 22:07:39 11868 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 22:07:43 5440 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:07:48 96 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:07:54 14992 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2F%3F
+2018/09/15 22:07:54 14992 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/15 22:07:54 9728 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:08:02 14504 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2F%3F
+2018/09/15 22:08:02 14504 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/15 22:08:02 11240 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:08:06 11724 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2F%3F
+2018/09/15 22:08:06 11724 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/15 22:08:06 10528 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 22:08:29 12596 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42

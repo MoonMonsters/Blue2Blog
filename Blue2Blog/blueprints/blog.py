@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 from flask import Blueprint, current_app
-from flask import render_template, request, url_for, flash, redirect
+from flask import render_template, request, url_for, flash, redirect, abort, make_response
 from flask_login import current_user
 
 from Blue2Blog.models import Post, Category, Comment
 from Blue2Blog.forms import AdminCommentForm, CommentForm
 from Blue2Blog.emails import send_new_comment_mail, send_new_reply_mail
 from Blue2Blog.extensions import db
-from Blue2Blog.utils import logger
+from Blue2Blog.utils import logger, redirect_back
 
 blog_bp = Blueprint("blog", __name__)
 
@@ -168,3 +168,18 @@ def reply_comment(comment_id):
 	logger.debug('redirect.url = ' + str(url))
 	# 转发到show_post中去处理
 	return url
+
+
+@blog_bp.route('/change-theme/<theme_name>')
+def change_theme(theme_name):
+	logger.debug('request.url = ' + str(request.url))
+	"""
+	更改博客主题
+	:param theme_name: 主题名称
+	"""
+	if theme_name not in current_app.config['BLUE2BLOG_THEMES'].keys():
+		abort(404)
+	response = make_response(redirect_back())
+	logger.debug('response = ' + str(response))
+	response.set_cookie('theme', theme_name, max_age=30 * 24 * 60 * 60)
+	return response
