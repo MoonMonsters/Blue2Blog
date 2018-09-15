@@ -11,10 +11,11 @@ from Blue2Blog.settings import config
 from Blue2Blog.blueprints.admin import admin_bp
 from Blue2Blog.blueprints.auth import auth_bp
 from Blue2Blog.blueprints.blog import blog_bp
-from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor
+from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor, login_manager
 from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_posts
 from Blue2Blog.models import Admin, Category
 from Blue2Blog.emails import send_new_comment_mail
+from Blue2Blog.utils import logger
 
 
 def create_app(config_name=None):
@@ -50,6 +51,7 @@ def register_extensions(app):
 	moment.init_app(app)
 	mail.init_app(app)
 	ckeditor.init_app(app)
+	login_manager.init_app(app)
 
 
 def register_shell_context(app):
@@ -134,12 +136,15 @@ def register_commands(app):
 		"""
 		创建admin账号，如果已经有了，则覆盖
 		"""
+
+		logger.debug("admin.username = " + str(username))
+
 		click.echo("Init the database")
 		db.create_all()
 
 		admin = Admin.query.first()
-		if admin:
-			click.echo("The admin is exists, so reset")
+		if admin is None:
+			click.echo("The admin is not exists, create")
 			admin = Admin(
 				username=username,
 				blog_title="Blue2Blog",
@@ -147,7 +152,11 @@ def register_commands(app):
 				about="Nothing of you",
 			)
 			admin.set_password(password)
-			db.session.add(admin)
+		else:
+			click.echo('The admin is exists, update')
+			admin.username = username
+			admin.set_password(password)
+		db.session.add(admin)
 		category = Category.query.first()
 		if category is None:
 			click.echo("Creating the default category...")

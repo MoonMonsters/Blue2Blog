@@ -320,3 +320,310 @@
 
 2018/09/15 23:15:53 9004 utils.py _log 33 now time is 2018-09-15 23:15:53.805932
 2018/09/15 23:15:53 9004 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:26:49 10228 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:26:49 10228 utils.py _log 33 now time is 2018-09-15 23:26:49.576804
+2018/09/15 23:26:49 10228 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:49:26 13996 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:49:26 13996 utils.py _log 33 now time is 2018-09-15 23:49:26.447150
+2018/09/15 23:49:26 13996 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:49:27 13900 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:49:27 13900 utils.py _log 33 now time is 2018-09-15 23:49:27.904430
+2018/09/15 23:49:27 13900 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:49:32 10728 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 23:51:07 8264 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:51:07 8264 utils.py _log 33 now time is 2018-09-15 23:51:07.290960
+2018/09/15 23:51:07 8264 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:51:13 13740 auth.py login 17 is_authenticated = False
+2018/09/15 23:51:22 224 auth.py login 17 is_authenticated = False
+2018/09/15 23:52:56 11784 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:52:56 11784 utils.py _log 33 now time is 2018-09-15 23:52:56.328169
+2018/09/15 23:52:56 11784 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:52:59 10836 auth.py login 17 is_authenticated = False
+2018/09/15 23:52:59 10836 auth.py login 39 redirect to login.html
+2018/09/15 23:53:14 9312 auth.py login 17 is_authenticated = False
+2018/09/15 23:53:14 9312 auth.py login 28 admin is None ? False
+2018/09/15 23:53:14 9312 auth.py login 39 redirect to login.html
+2018/09/15 23:55:49 7452 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:55:49 7452 utils.py _log 33 now time is 2018-09-15 23:55:49.483341
+2018/09/15 23:55:49 7452 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:55:54 12356 auth.py login 17 is_authenticated = False
+2018/09/15 23:55:54 12356 auth.py login 41 redirect to login.html
+2018/09/15 23:56:01 11648 auth.py login 17 is_authenticated = False
+2018/09/15 23:56:01 11648 auth.py login 36 login fail
+2018/09/15 23:56:01 11648 auth.py login 37 username is right ? False
+2018/09/15 23:56:01 11648 auth.py login 38 password is right ? False
+2018/09/15 23:56:01 11648 auth.py login 41 redirect to login.html
+2018/09/15 23:56:59 5492 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:56:59 5492 utils.py _log 33 now time is 2018-09-15 23:56:59.834629
+2018/09/15 23:56:59 5492 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:57:13 10656 auth.py login 17 is_authenticated = False
+2018/09/15 23:57:13 10656 auth.py login 41 redirect to login.html
+2018/09/15 23:57:19 3188 auth.py login 17 is_authenticated = False
+2018/09/15 23:57:19 3188 auth.py login 36 login fail
+2018/09/15 23:57:19 3188 auth.py login 37 username is right ? flynngod,admin
+2018/09/15 23:57:19 3188 auth.py login 38 password is right ? False
+2018/09/15 23:57:19 3188 auth.py login 41 redirect to login.html
+2018/09/15 23:58:54 10220 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:58:54 10220 utils.py _log 33 now time is 2018-09-15 23:58:54.885437
+2018/09/15 23:58:54 10220 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:59:04 10220 __init__.py init_admin 140 admin.username = flynngod
+2018/09/15 23:59:15 15044 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:59:15 15044 utils.py _log 33 now time is 2018-09-15 23:59:15.750643
+2018/09/15 23:59:15 15044 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/15 23:59:17 10072 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 23:59:17 10072 utils.py _log 33 now time is 2018-09-15 23:59:17.368518
+2018/09/15 23:59:17 10072 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:01:35 12892 auth.py login 17 is_authenticated = False
+2018/09/16 00:01:35 12892 auth.py login 41 redirect to login.html
+2018/09/16 00:01:42 2932 auth.py login 17 is_authenticated = False
+2018/09/16 00:01:42 2932 auth.py login 36 login fail
+2018/09/16 00:01:42 2932 auth.py login 37 username is right ? flynngod,admin
+2018/09/16 00:01:42 2932 auth.py login 38 password is right ? False
+2018/09/16 00:01:42 2932 auth.py login 41 redirect to login.html
+2018/09/16 00:02:36 13240 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:02:36 13240 utils.py _log 33 now time is 2018-09-16 00:02:36.865382
+2018/09/16 00:02:36 13240 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:03:19 13272 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:03:19 13272 utils.py _log 33 now time is 2018-09-16 00:03:19.503450
+2018/09/16 00:03:19 13272 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:03:27 15192 auth.py login 17 is_authenticated = False
+2018/09/16 00:03:27 15192 auth.py login 42 redirect to login.html
+2018/09/16 00:03:34 13308 auth.py login 17 is_authenticated = False
+2018/09/16 00:03:34 13308 auth.py login 36 login fail
+2018/09/16 00:03:34 13308 auth.py login 37 admin = username=admin,name=ChenTao
+2018/09/16 00:03:34 13308 auth.py login 38 username is right ? flynngod,admin
+2018/09/16 00:03:34 13308 auth.py login 39 password is right ? False
+2018/09/16 00:03:34 13308 auth.py login 42 redirect to login.html
+2018/09/16 00:06:02 2228 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:06:02 2228 utils.py _log 33 now time is 2018-09-16 00:06:02.922100
+2018/09/16 00:06:02 2228 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:07:57 13396 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:07:57 13396 utils.py _log 33 now time is 2018-09-16 00:07:57.310368
+2018/09/16 00:07:57 13396 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:08:02 6552 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:08:02 6552 utils.py _log 33 now time is 2018-09-16 00:08:02.599376
+2018/09/16 00:08:02 6552 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:08:10 6552 __init__.py init_admin 140 admin.username = flynngod
+2018/09/16 00:08:16 8880 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:08:16 8880 utils.py _log 33 now time is 2018-09-16 00:08:16.737906
+2018/09/16 00:08:16 8880 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:08:18 12652 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:08:18 12652 utils.py _log 33 now time is 2018-09-16 00:08:18.037358
+2018/09/16 00:08:18 12652 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:08:44 13428 auth.py login 17 is_authenticated = False
+2018/09/16 00:08:44 13428 auth.py login 31 login success
+2018/09/16 00:08:44 11464 auth.py login 17 is_authenticated = True
+2018/09/16 00:08:44 1944 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:14:23 3920 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 00:14:23 3920 utils.py _log 33 now time is 2018-09-16 00:14:23.850422
+2018/09/16 00:14:23 3920 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 00:14:33 7404 auth.py login 17 is_authenticated = True
+2018/09/16 00:14:33 1056 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:14:41 14056 auth.py logout 50 user logout
+2018/09/16 00:14:41 2844 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:15:34 10376 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:15:39 14560 auth.py login 17 is_authenticated = False
+2018/09/16 00:15:39 14560 auth.py login 42 redirect to login.html
+2018/09/16 00:15:47 8932 auth.py login 17 is_authenticated = False
+2018/09/16 00:15:47 8932 auth.py login 31 login success
+2018/09/16 00:15:47 3224 auth.py login 17 is_authenticated = True
+2018/09/16 00:15:47 232 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:19:11 12764 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:19:18 3608 auth.py logout 50 user logout
+2018/09/16 00:19:18 11536 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:19:35 96 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:19:40 11724 auth.py login 17 is_authenticated = False
+2018/09/16 00:19:40 11724 auth.py login 42 redirect to login.html
+2018/09/16 00:19:42 4372 auth.py login 17 is_authenticated = False
+2018/09/16 00:19:42 4372 auth.py login 31 login success
+2018/09/16 00:19:42 10532 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:20:07 5208 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:20:10 11980 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:21:13 12328 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:21:25 14032 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2F%3F
+2018/09/16 00:21:25 14032 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/16 00:21:25 15264 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:22:01 12420 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 00:22:10 15340 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2F%3F
+2018/09/16 00:22:10 15340 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/16 00:22:10 2976 blog.py index 21 request.url = http://127.0.0.1:5000/
