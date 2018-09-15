@@ -11,6 +11,7 @@
         <h1>{{ post.title }}</h1>
         <small>
             Category:
+            {# 构建category链接，设置id #}
             <a href="{{ url_for('blog.show_category',category_id=post.category.id) }}">
                 {{ post.category.name }}
             </a><br/>
@@ -34,61 +35,75 @@
                                     <h5 class="mb-1">
                                         <a href="{% if comment.site %}{{ comment.site }}{% else %}#{% endif %}"
                                            target="_blank">
+                                            {# 如果是管理员，在显示管理员的名字，若不是，则显示评论人员的名字 #}
                                             {% if comment.from_admin %}
                                                 {{ admin.name }}
                                             {% else %}
                                                 {{ comment.author }}
                                             {% endif %}
                                         </a>
+                                        {# 如果是管理员，则显示Author字样 #}
                                         {% if comment.from_admin %}
                                             <span class="badge badge-primary">Author</span>
                                         {% endif %}
+                                        {# 如果是回复别人的评论，就在名字后面加上Reply字样 #}
                                         {% if comment.replied %}
                                             <span class="badge badge-light">Reply</span>
                                         {% endif %}
                                     </h5>
+                                    {# 格式化时间，使用flask_moment库 #}
                                     <small data-toggle="tooltip" data-placement="top" data-delag="500"
                                            data-timestamp="{{ comment.timestamp.strftime('%Y-%m-%dT^H:%M:%SZ') }}">
                                         {{ moment(comment.timestamp).fromNow() }}
                                     </small>
                                 </div>
+                                {# 这两部分都是评论，上面的是被评论的内容，下面的是对别人的评论回复的内容 #}
+                                {# 回复的具体内容 #}
                                 {% if comment.replied %}
                                     <p class="alert alert-dark reply-body">
                                         {{ comment.replied.author }}:<br/>
                                         {{ comment.replied.body }}
                                     </p>
                                 {% endif %}
+                                {# 评论的具体内容 #}
                                 <p class="mb-1">
                                     {{ comment.body }}
                                 </p>
                                 <div class="float-right">
                                     <a class="btn btn-light btn-sm"
+                                            {# 回复评论按钮 #}
                                        href="{{ url_for('blog.reply_comment',comment_id=comment.id) }}">Reply</a>
                                 </div>
                             </li>
                         {% endfor %}
                     </ul>
                 {% else %}
+                    {# 没有评论 #}
                     <div class="tip">
                         <h5>No Comments.</h5>
                     </div>
                 {% endif %}
             </div>
         </div>
+        {# 导入Category导航栏 #}
         <div class="col-sm-4 sidebar">
             {% include 'blog/_sidebar.html' %}
         </div>
     </div>
+    {# 使用Bootstrap格式化pagination  #}
     {% if comments %}
         {{ render_pagination(pagination,fragment='#comments') }}
     {% endif %}
 
+    {# 如果是回复别人的评论，那么将在表单上面显示 Reply to {{ Author_name }}:字样 #}
     {% if request.args.get('reply') %}
         <div class="alert alert-dark">
             Reply to <strong>{{ request.args.get('author') }}</strong>:
+            {# 传递post的id #}
             <a class="float-right" href="{{ url_for('blog.show_post',post_id=post.id) }}#comments">Cancel</a>
         </div>
     {% endif %}
+    {# 格式化表单 #}
     <div id="comment-form" class="col-sm-8">
         {{ render_form(form) }}
     </div>

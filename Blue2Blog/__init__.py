@@ -14,6 +14,7 @@ from Blue2Blog.blueprints.blog import blog_bp
 from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor
 from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_posts
 from Blue2Blog.models import Admin, Category
+from Blue2Blog.emails import send_new_comment_mail
 
 
 def create_app(config_name=None):
@@ -95,3 +96,10 @@ def register_commands(app):
 		fake_comments()
 
 		click.echo('All Done...')
+
+	@app.cli.command()
+	def send_email():
+		click.echo('Send a new mail')
+		from Blue2Blog.models import Post
+		post = Post.query.get(1)
+		send_new_comment_mail(post)

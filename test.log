@@ -1,0 +1,208 @@
+2018/09/15 16:34:08 Blue2Blog utils.py 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:34:08 Blue2Blog utils.py now time is 2018-09-15 16:34:08.670636
+2018/09/15 16:34:08 Blue2Blog utils.py --------------------
+2018/09/15 16:34:16 Blue2Blog blog.py request.url = http://127.0.0.1:5000/
+2018/09/15 16:34:37 Blue2Blog blog.py post_id = 42
+2018/09/15 16:35:11 Blue2Blog blog.py post_id = 42
+2018/09/15 16:35:12 Blue2Blog blog.py post_id = 42
+2018/09/15 16:43:04 Blue2Blog utils.py 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:43:04 Blue2Blog utils.py now time is 2018-09-15 16:43:04.212597
+2018/09/15 16:43:04 Blue2Blog utils.py --------------------
+2018/09/15 16:43:57 utils.py utils.py 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:43:57 utils.py utils.py now time is 2018-09-15 16:43:57.364611
+2018/09/15 16:43:57 utils.py utils.py --------------------
+2018/09/15 16:44:21 utils.py _log 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:44:21 utils.py _log now time is 2018-09-15 16:44:21.049192
+2018/09/15 16:44:21 utils.py _log --------------------
+2018/09/15 16:44:33 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:44:33 utils.py _log 30 now time is 2018-09-15 16:44:33.726299
+2018/09/15 16:44:33 utils.py _log 31 --------------------
+2018/09/15 16:45:57 21400 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:45:57 21400 utils.py _log 30 now time is 2018-09-15 16:45:57.529114
+2018/09/15 16:45:57 21400 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:46:04 19788 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/15 16:46:09 19356 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/42
+2018/09/15 16:46:09 19356 blog.py show_post 71 post_id = 42
+2018/09/15 16:46:22 2484 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/42
+2018/09/15 16:46:22 2484 blog.py show_post 71 post_id = 42
+2018/09/15 16:46:23 15136 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/42
+2018/09/15 16:46:23 15136 blog.py show_post 71 post_id = 42
+2018/09/15 16:47:54 17440 blog.py reply_comment 153 request.url = http://127.0.0.1:5000/reply/comment/108
+2018/09/15 16:47:54 17440 blog.py reply_comment 154 comment_id = 108
+2018/09/15 16:47:54 20684 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:47:54 20684 blog.py show_post 71 post_id = 42
+2018/09/15 16:48:01 10416 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:48:01 10416 blog.py show_post 71 post_id = 42
+2018/09/15 16:50:01 11820 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:50:01 11820 utils.py _log 30 now time is 2018-09-15 16:50:01.327449
+2018/09/15 16:50:01 11820 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:50:29 13104 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:50:29 13104 utils.py _log 30 now time is 2018-09-15 16:50:29.924081
+2018/09/15 16:50:29 13104 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:51:14 18648 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:51:14 18648 utils.py _log 30 now time is 2018-09-15 16:51:14.133761
+2018/09/15 16:51:14 18648 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:51:59 18864 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:51:59 18864 utils.py _log 30 now time is 2018-09-15 16:51:59.278556
+2018/09/15 16:51:59 18864 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:52:30 18240 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:52:39 6900 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:53:08 13056 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:53:39 9212 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:55:09 20896 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:55:09 20896 utils.py _log 30 now time is 2018-09-15 16:55:09.574662
+2018/09/15 16:55:09 20896 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:55:49 4732 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:55:49 4732 utils.py _log 30 now time is 2018-09-15 16:55:49.248767
+2018/09/15 16:55:49 4732 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 16:55:49 21368 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:56:08 14976 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 16:59:32 18620 utils.py _log 29 
+
+
+
+
+
+
+
+
+
+
+2018/09/15 16:59:32 18620 utils.py _log 30 now time is 2018-09-15 16:59:32.074273
+2018/09/15 16:59:32 18620 utils.py _log 31 --------------------------------------------------------------------------------
+2018/09/15 17:00:04 16936 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 17:00:12 20096 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=108&author=Terri+Gomez
+2018/09/15 17:00:12 20096 blog.py show_post 122 comment_id = 108
+2018/09/15 17:00:12 20096 blog.py show_post 126 replied_comment.id = 108
+2018/09/15 17:00:12 21916 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42
+2018/09/15 17:59:25 3740 blog.py reply_comment 153 request.url = http://127.0.0.1:5000/reply/comment/296
+2018/09/15 17:59:26 3740 blog.py reply_comment 168 redirect.url = <Response 323 bytes [302 FOUND]>
+2018/09/15 17:59:26 15100 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=296&author=Jeanette+Watson
+2018/09/15 18:03:25 17056 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=296&author=Jeanette+Watson
+2018/09/15 18:03:47 20636 blog.py reply_comment 153 request.url = http://127.0.0.1:5000/reply/comment/608
+2018/09/15 18:03:47 20636 blog.py reply_comment 168 redirect.url = <Response 307 bytes [302 FOUND]>
+2018/09/15 18:03:47 8520 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=608&author=CHENTAO
+2018/09/15 18:03:59 22448 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42?reply=608&author=CHENTAO
+2018/09/15 18:03:59 22448 blog.py show_post 122 comment_id = 608
+2018/09/15 18:03:59 22448 blog.py show_post 126 replied_comment.id = 608
+2018/09/15 18:03:59 20500 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42

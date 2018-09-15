@@ -20,13 +20,14 @@ def send_mail(subject, to, html):
 	# 传入调用_get_current_object()的方法获取到的被代理的程序实例
 	app = current_app._get_current_object()
 	message = Message(subject, recipients=[to], html=html)
-	thr = Thread(target=_send_async_mail, args=[app, message])
+	thr = Thread(target=_send_async_mail, args=(app, message))
 	# 在子线程中发送邮件
 	thr.start()
 	return thr
 
 
 def send_new_comment_mail(post):
+	print('emails.send_new_comment_mail')
 	# 获取决定url，并且点击链接时直接跳转到评论出
 	post_url = url_for("blog.show_post", post_id=post.id, _external=True) + "#comments"
 	send_mail(

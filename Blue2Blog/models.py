@@ -47,12 +47,16 @@ class Comment(db.Model):
 	from_admin = db.Column(db.Boolean, default=False)
 	# 该评论是否通过审核
 	reviewed = db.Column(db.Boolean, default=False)
+	# 时间
 	timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
-
+	# 关联的博客的id
 	post_id = db.Column(db.Integer, db.ForeignKey('post.id'))
 	# post = db.relationship('Post', back_populates='comments')
 
 	# 给评论添加级联关系，可以回复评论
+	# 关联自身
 	replied_id = db.Column(db.Integer, db.ForeignKey('comment.id'))
+	# remote_side，建立多对一的关系
+	# 建立层级关系，每个评论对象都可以包含多个子评论
 	replied = db.relationship('Comment', back_populates='replies', remote_side=[id])
 	replies = db.relationship('Comment', back_populates='replied', cascade='all')
