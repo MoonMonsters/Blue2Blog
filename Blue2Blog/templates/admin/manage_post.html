@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% from 'bootstrap/pagination.html' import render_pagination %}
+
+{% block title %}
+    Manage Post
+{% endblock title %}
+
+{% block content %}
+    <div class="page-header">
+        <h1>Posts
+            <small class="text-muted">
+                {# 显示总的博客数量 #}
+                {{ pagination.total }}
+            </small>
+            <span class="float-right">
+                {# 跳转新建博客页面 #}
+                <a class="btn btn-primary bnt-sm" href="{{ url_for('admin.new_post') }}">New Post</a>
+            </span>
+        </h1>
+    </div>
+    {% if posts %}
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>No.</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Comments</th>
+                <th>Words</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            {% for post in posts %}
+                <tr>
+                    <td>
+                        {# loop.index是当前item在整个页面的位置，如果需要计算在所有博客中的位置，还要加上页码-1*每页的数量 #}
+                        {{ loop.index + (pagination.page - 1) * config.BLUE2BLOG_MANAGE_POST_PER_PAGE }}
+                    </td>
+                    <td>
+                        {# 标题 #}
+                        <a href="{{ url_for('blog.show_post',post_id=post.id) }}">
+                            {{ post.title }}
+                        </a>
+                    </td>
+                    <td>
+                        {# 博客类型，点击可以调到分类页面 #}
+                        <a href="{{ url_for('blog.show_category',category_id=post.category.id) }}">
+                            {{ post.category.name }}
+                        </a>
+                    </td>
+                    <td>
+                        {# 时间 #}
+                        {{ moment(post.timestamp).format('LL') }}
+                    </td>
+                    <td>
+                        {# 评论数量 #}
+                        <a href="{{ url_for('blog.show_post',post_id=post.id) }}#comments">
+                            {{ post.comments|length }}
+                        </a>
+                    </td>
+                    <td>
+                        {# 博客长度 #}
+                        {{ post.body|length }}
+                    </td>
+                    <td>
+                        {# 编辑博客 #}
+                        <a class="btn btn-info btn-sm" href="{{ url_for('admin.edit_post',post_id=post.id) }}">
+                            Edit
+                        </a>
+                        <form class="inline" method="post"
+                              action="{{ url_for('admin.delete_post',post_id=post.id,next=request.full_path) }}">
+                            {# 防置csrf攻击，是在extensions中CSRFProtect()对象的函数 #}
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                            {# 删除，为了安全，放到form表单中处理 #}
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="return confirm('Are you sure?');">
+                                Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+        {# 底部导航，使用bootstrap处理 #}
+        <div class="page-footer">
+            {{ render_pagination(pagination) }}
+        </div>
+    {% else %}
+        <div class="tip">
+            <h5>No Posts.</h5>
+        </div>
+    {% endif %}
+{% endblock content %}

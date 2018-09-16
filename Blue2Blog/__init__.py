@@ -6,6 +6,7 @@ import os
 import click
 from flask import Flask
 from flask import render_template
+from flask_login import current_user
 
 from Blue2Blog.settings import config
 from Blue2Blog.blueprints.admin import admin_bp
@@ -13,7 +14,7 @@ from Blue2Blog.blueprints.auth import auth_bp
 from Blue2Blog.blueprints.blog import blog_bp
 from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor, login_manager, csrf
 from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_posts
-from Blue2Blog.models import Admin, Category
+from Blue2Blog.models import Admin, Category, Comment
 from Blue2Blog.emails import send_new_comment_mail
 from Blue2Blog.utils import logger
 
@@ -67,7 +68,19 @@ def register_template_context(app):
 	def make_template_context():
 		admin = Admin.query.first()
 		categories = Category.query.order_by(Category.name).all()
-		return dict(admin=admin, categories=categories)
+
+		# 是否存在未审核的评论
+		if current_user.is_authenticated:
+			unread_comments = Comment.query.filter_by(reviewed=False).count()
+		else:
+			unread_comments = None
+
+		context = dict()
+		context.update(admin=admin)
+		context.update(categories=categories)
+		context.update(unread_comments=unread_comments)
+
+		return context
 
 
 def register_errors(app):

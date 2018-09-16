@@ -627,3 +627,158 @@
 2018/09/16 00:22:10 15340 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2F%3F
 2018/09/16 00:22:10 15340 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
 2018/09/16 00:22:10 2976 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 12:41:34 7568 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 12:41:34 7568 utils.py _log 33 now time is 2018-09-16 12:41:34.606924
+2018/09/16 12:41:34 7568 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 12:41:35 16464 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 12:41:35 16464 utils.py _log 33 now time is 2018-09-16 12:41:35.627468
+2018/09/16 12:41:35 16464 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 12:41:41 7840 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 12:42:06 11388 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2F%3F
+2018/09/16 12:42:06 11388 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/16 12:42:06 7336 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 12:42:21 11868 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2F%3F
+2018/09/16 12:42:21 11868 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/16 12:42:21 3876 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 12:42:52 6856 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 12:42:59 6944 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2F%3F
+2018/09/16 12:42:59 6944 blog.py change_theme 183 response = <Response 211 bytes [302 FOUND]>
+2018/09/16 12:42:59 3948 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 12:48:02 1460 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 12:48:02 1460 utils.py _log 33 now time is 2018-09-16 12:48:02.652684
+2018/09/16 12:48:02 1460 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 12:56:22 2728 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 12:56:22 2728 utils.py _log 33 now time is 2018-09-16 12:56:22.121715
+2018/09/16 12:56:22 2728 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 13:00:30 12180 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 13:00:30 12180 utils.py _log 33 now time is 2018-09-16 13:00:30.871592
+2018/09/16 13:00:30 12180 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 13:19:19 2020 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 13:19:19 2020 utils.py _log 33 now time is 2018-09-16 13:19:19.237348
+2018/09/16 13:19:19 2020 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 13:19:27 14592 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 13:20:38 9420 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:20:43 16972 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/30
+2018/09/16 13:20:45 4944 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:20:47 12680 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage?page=2
+2018/09/16 13:20:49 11200 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage?page=4
+2018/09/16 13:20:51 12656 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage?page=1
+2018/09/16 13:21:03 9700 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage?page=1
+2018/09/16 13:21:08 16992 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/3
+2018/09/16 13:21:10 10568 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage?page=1
+2018/09/16 13:21:14 16096 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 13:21:19 9056 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 13:21:23 15508 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 13:21:25 6128 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:21:36 1152 blog.py change_theme 175 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fadmin%2Fpost%2Fmanage%3F
+2018/09/16 13:21:36 1152 blog.py change_theme 183 response = <Response 245 bytes [302 FOUND]>
+2018/09/16 13:21:36 1672 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:21:56 16860 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/42
+2018/09/16 13:22:01 15264 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:22:10 11472 admin.py delete_post 58 request.url = http://127.0.0.1:5000/admin/post/delete/42?next=%2Fadmin%2Fpost%2Fmanage%3F
+2018/09/16 13:22:11 7292 admin.py manage_post 28 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:31:05 12568 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 13:31:05 12568 utils.py _log 33 now time is 2018-09-16 13:31:05.122773
+2018/09/16 13:31:05 12568 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 13:31:45 2868 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 13:31:45 2868 utils.py _log 33 now time is 2018-09-16 13:31:45.130284
+2018/09/16 13:31:45 2868 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 13:31:59 15660 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 13:32:02 792 admin.py new_post 19 request.url = http://127.0.0.1:5000/admin/post/new
+2018/09/16 13:33:49 14012 admin.py new_post 19 request.url = http://127.0.0.1:5000/admin/post/new
+2018/09/16 13:42:46 3944 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 13:42:46 3944 utils.py _log 33 now time is 2018-09-16 13:42:46.177825
+2018/09/16 13:42:46 3944 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 13:42:47 9364 admin.py manage_post 49 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/16 13:50:08 16456 admin.py new_post 19 request.url = http://127.0.0.1:5000/admin/post/new
+2018/09/16 13:50:10 16708 admin.py manage_post 49 request.url = http://127.0.0.1:5000/admin/post/manage
