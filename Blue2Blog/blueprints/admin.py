@@ -138,6 +138,7 @@ def manage_post():
 
 
 @admin_bp.route("/category/manage")
+@login_required
 def manage_category():
 	logger.debug('request.url = ' + str(request.url))
 	categories = Category.query.all()
@@ -149,11 +150,13 @@ def manage_category():
 
 
 @admin_bp.route("/manage_comment")
+@login_required
 def manage_comment():
 	logger.debug('request.url' + str(request.url))
 
 
 @admin_bp.route('/post/edit/<int:post_id>', methods=['GET', 'POST'])
+@login_required
 def edit_post(post_id):
 	logger.debug('request.url = ' + str(request.url))
 	form = PostForm()
@@ -200,6 +203,7 @@ def delete_post(post_id):
 
 
 @admin_bp.route("/settings")
+@login_required
 def settings():
 	logger.debug('request.url ' + str(request.url))
 
