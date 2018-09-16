@@ -7,6 +7,7 @@ from flask_mail import Mail
 from flask_ckeditor import CKEditor
 from flask_moment import Moment
 from flask_login import LoginManager
+from flask_wtf.csrf import CSRFProtect
 
 # 创建第三方库对象，但此时不传入app对象做参数
 bootstrap = Bootstrap()
@@ -15,6 +16,7 @@ moment = Moment()
 ckeditor = CKEditor()
 mail = Mail()
 login_manager = LoginManager()
+csrf = CSRFProtect()
 
 
 @login_manager.user_loader

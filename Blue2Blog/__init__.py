@@ -11,7 +11,7 @@ from Blue2Blog.settings import config
 from Blue2Blog.blueprints.admin import admin_bp
 from Blue2Blog.blueprints.auth import auth_bp
 from Blue2Blog.blueprints.blog import blog_bp
-from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor, login_manager
+from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor, login_manager, csrf
 from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_posts
 from Blue2Blog.models import Admin, Category
 from Blue2Blog.emails import send_new_comment_mail
@@ -52,6 +52,7 @@ def register_extensions(app):
 	mail.init_app(app)
 	ckeditor.init_app(app)
 	login_manager.init_app(app)
+	csrf.init_app(app)
 
 
 def register_shell_context(app):

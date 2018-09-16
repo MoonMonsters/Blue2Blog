@@ -48,6 +48,7 @@ def login():
 @login_required
 def logout():
 	logger.debug('user logout')
+	# 退出，详细可以查看代码，很容易理解
 	logout_user()
 	flash('Logout success.', 'info')
 	return redirect_back()
