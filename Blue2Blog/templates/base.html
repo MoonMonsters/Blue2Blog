@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initail-scale=1, shrink-to-fit=no">
         <title>{% block title %}{% endblock title %} - Blue2Blog</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}">
         <link rel="stylesheet"
               href="{{ url_for('static',filename='css/%s.min.css' % request.cookies.get('theme','perfect_blue')) }}"
@@ -122,8 +123,8 @@
 </main>
 
 {% block scripts %}
-    <script type="text/javascript" src="{{ url_for('static',filename='js/jquery-3.2.1.slim.min.js') }}">
-    </script>
+{#    <script type="text/javascript" src="{{ url_for('static',filename='js/jquery-3.2.1.slim.min.js') }}">#}
+{#    </script>#}
     <script type="text/javascript" src="{{ url_for('static',filename='js/popper.min.js') }}">
     </script>
     <script type="text/javascript" src="{{ url_for('static',filename='js/bootstrap.js') }}">

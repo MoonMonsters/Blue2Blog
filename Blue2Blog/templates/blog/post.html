@@ -15,14 +15,23 @@
             <a href="{{ url_for('blog.show_category',category_id=post.category.id) }}">
                 {{ post.category.name }}
             </a><br/>
-            Date:{{ moment(post.timestamp).format('LL') }}
+            Date:{{ moment(post.timestamp).format('LL') }}<br/>
+            {% if current_user.is_authenticated %}
+                <form class="float-left" method="post"
+                      action="{{ url_for('admin.comment_enabled',post_id=post.id,next=request.full_path) }}">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    Comment Enabled: &nbsp;&nbsp;<button type="submit" class="btn  btn-sm">
+                    {% if post.comment_enabled %}Enabled{% else %}Disabled{% endif %}
+                </button>
+                </form>
+            {% endif %}
         </small>
     </div>
     <br/>
 
     <div class="row">
         <div class="col-sm-8">
-            {{ post.body|safe }}
+            <label style="word-break: break-all;white-space: normal;">{{ post.body|safe }}</label>
 
             <br/>
             <hr/>
@@ -72,14 +81,43 @@
                                     </p>
                                 {% endif %}
                                 {# 评论的具体内容 #}
-                                <p class="mb-1">
-                                    {{ comment.body }}
+                                <p class="d-flex w-100 justify-content-between">
+                                    <label style="word-break: break-all;white-space: normal;">{{ comment.body }}</label>
                                 </p>
-                                <div class="float-right">
-                                    <a class="btn btn-light btn-sm"
-                                            {# 回复评论按钮 #}
-                                       href="{{ url_for('blog.reply_comment',comment_id=comment.id) }}">Reply</a>
-                                </div>
+                                {# 回复评论 #}
+                                {% if post.comment_enabled %}
+                                    <div class="float-right">
+                                        <a class="btn btn-light btn-sm"
+                                                {# 回复评论按钮 #}
+                                           href="{{ url_for('blog.reply_comment',comment_id=comment.id) }}">Reply</a>
+                                    </div>
+                                {% endif %}
+                                {% if current_user.is_authenticated %}
+                                    {# 管理员删除评论 #}
+                                    <div class="float-right">
+                                        <form class="inline" method="post"
+                                              action="{{ url_for('admin.delete_comment',comment_id=comment.id,next=request.full_path) }}">
+                                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                                            <button type="submit" class="btn btn-danger btn-sm"
+                                                    onclick="return confirm('Are you sure?')">
+                                                Delete
+                                            </button>
+                                        </form>
+                                    </div>
+                                    {# 管理员会把所有的评论都读取出来，如果有评论没有审核就会加上该审核按钮 #}
+                                    {% if not comment.reviewed %}
+                                        <div class="float-right">
+                                            <form class="inline" method="post"
+                                                  action="{{ url_for('admin.review_comment',comment_id=comment.id,
+                                                  next=request.full_path) }}">
+                                                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                                                <button type="submit" class="btn btn-info btn-sm">
+                                                    Review
+                                                </button>
+                                            </form>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
                             </li>
                         {% endfor %}
                     </ul>
@@ -109,8 +147,14 @@
             <a class="float-right" href="{{ url_for('blog.show_post',post_id=post.id) }}#comments">Cancel</a>
         </div>
     {% endif %}
-    {# 格式化表单 #}
-    <div id="comment-form" class="col-sm-8">
-        {{ render_form(form) }}
-    </div>
+    {% if post.comment_enabled %}
+        {# 格式化表单 #}
+        <div id="comment-form" class="col-sm-8">
+            {{ render_form(form) }}
+        </div>
+    {% else %}
+        <div class="tip">
+            <h5>Comment Disabled.</h5>
+        </div>
+    {% endif %}
 {% endblock content %}

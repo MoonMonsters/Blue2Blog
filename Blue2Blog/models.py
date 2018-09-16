@@ -41,11 +41,15 @@ class Post(db.Model):
 	title = db.Column(db.String(60))
 	body = db.Column(db.Text)
 	timestamp = db.Column(db.DateTime, default=datetime.utcnow)
-	category_id = db.Column(db.Integer, db.ForeignKey('category.id'))
+	category_id = db.Column(db.Integer, db.ForeignKey('category.id'), default=0)
 	category = db.relationship('Category', back_populates='posts')
+	comment_enabled = db.Column(db.Boolean, default=True)
 
 	# 当删除文章时，评论也全部删除
 	comments = db.relationship('Comment', backref='post', cascade='all')
+
+	def __str__(self):
+		return f'id={self.id},title={self.title},category_id={self.category_id}'
 
 
 class Comment(db.Model):

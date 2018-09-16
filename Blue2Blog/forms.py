@@ -55,7 +55,7 @@ class CommentForm(FlaskForm):
 	submit = SubmitField()
 
 
-class AdminCommentForm(FlaskForm):
+class AdminCommentForm(CommentForm):
 	"""管理员可以不需要填写这些项"""
 	author = HiddenField()
 	email = HiddenField()

@@ -73,24 +73,31 @@ def show_post(post_id):
 	# 根据post_id获取文章评论
 	page = request.args.get("page", 1, type=int)
 	per_page = current_app.config["BLUE2BLOG_COMMENT_PER_PAGE"]
-	pagination = (
-		Comment.query.with_parent(post)
-			# 过滤出已经审核的评论
-			.filter_by(reviewed=True)
-			.order_by(Comment.timestamp.asc())
-			.paginate(page, per_page)
-	)
+	if current_user.is_authenticated:
+		# 如果管理员已经登录，那么将显示所有的评论
+		pagination = (
+			Comment.query.with_parent(post)
+				.order_by(Comment.timestamp.asc())
+				.paginate(page, per_page)
+		)
+	else:
+		pagination = (
+			Comment.query.with_parent(post)
+				.filter_by(reviewed=True)  # 没有登录，则过滤出已经审核的评论
+				.order_by(Comment.timestamp.asc())
+				.paginate(page, per_page)
+		)
 	comments = pagination.items
 
 	# 如果当前用户已经登录
-	# if current_user.is_authenticated:
-	if False:
+	if current_user.is_authenticated:
+		# if False:
 		# 如果管理员登录了，那么久使用AdminCommentForm
 		form = AdminCommentForm()
 		# 直接从登录的管理员中取出需要的数据
 		form.author.data = current_user.name
 		form.email.data = current_app.config["BLUE2BLOG_EMAIL"]
-		form.site.data = url_for("blog.index")
+		form.site.data = url_for("blog.index", _external=True)
 		from_admin = True
 		# 管理员发表的评论不需要审核
 		reviewed = True
@@ -131,8 +138,8 @@ def show_post(post_id):
 		db.session.add(comment)
 		db.session.commit()
 
-		# if current_user.is_authenticated:
-		if False:
+		if current_user.is_authenticated:
+			# if False:
 			flash("Comment published.", "success")
 		else:
 			flash("Thanks, your comment will be published after reviewed.", "info")
