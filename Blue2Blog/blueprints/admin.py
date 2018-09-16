@@ -6,7 +6,7 @@ from flask import request, redirect, url_for, render_template, flash
 from flask_login import login_required
 
 from Blue2Blog.models import Post, Category, Comment
-from Blue2Blog.utils import logger
+from Blue2Blog.utils import logger, redirect_back
 from Blue2Blog.forms import PostForm
 from Blue2Blog.extensions import db
 
@@ -70,16 +70,50 @@ def manage_comment():
 	logger.debug('request.url' + str(request.url))
 
 
-@admin_bp.route('/post/edit/<int:post_id>')
+@admin_bp.route('/post/edit/<int:post_id>', methods=['GET', 'POST'])
 def edit_post(post_id):
 	logger.debug('request.url = ' + str(request.url))
-	pass
+	form = PostForm()
+	# 根据要编辑的博客id，获取Post对象
+	post = Post.query.get_or_404(post_id)
+	# 如果是修改文章时提交的form对象
+	if form.validate_on_submit():
+		# 更新post对象
+		post.title = form.title.data
+		post.body = form.body.data
+		post.category = Category.query.get(form.category.data)
+		flash('Post updated', 'success')
+		# 提交
+		db.session.commit()
+
+		# 跳转到博客详细页面
+		return redirect(url_for('blog.show_post', post_id=post.id))
+
+	# 如果是跳转到编辑文章页面去，那么将post的值赋值给form对象
+	# html页面中，将会显示这些值
+	form.title.data = post.title
+	form.body.data = post.body
+	form.category.data = post.category_id
+	return render_template('admin/edit_post.html', form=form)
 
 
 @admin_bp.route('/post/delete/<int:post_id>', methods=['POST'])
 @login_required
 def delete_post(post_id):
+	"""
+	删除博客
+	:param post_id: 博客id
+	:return: 返回到原页面去
+	"""
 	logger.debug('request.url = ' + str(request.url))
+	# 根据id获取，如果不存在，报404错误
+	post = Post.query.get_or_404(post_id)
+	# 删除
+	db.session.delete(post)
+	db.session.commit()
+	flash('Post deleted', 'success')
+
+	return redirect_back()
 
 
 @admin_bp.route("/settings")

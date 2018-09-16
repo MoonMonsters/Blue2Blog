@@ -18,9 +18,15 @@
             Date:{{ moment(post.timestamp).format('LL') }}
         </small>
     </div>
+    <br/>
+
     <div class="row">
         <div class="col-sm-8">
             {{ post.body|safe }}
+
+            <br/>
+            <hr/>
+            <hr/>
 
             <div class="comments" id="comments">
                 <h3>{{ comments|length }}&nbsp;Comments
