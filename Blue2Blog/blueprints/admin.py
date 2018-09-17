@@ -15,31 +15,6 @@ from Blue2Blog.extensions import db
 admin_bp = Blueprint("admin", __name__)
 
 
-@admin_bp.route("/post/new", methods=['POST', 'GET'])
-@login_required
-def new_post():
-	logger.debug('request.url = ' + str(request.url))
-	form = PostForm()
-	if form.validate_on_submit():
-		title = form.title.data
-		body = form.body.data
-		# 根据id得到category对象
-		category = Category.query.get(form.category.data)
-		post = Post(title=title, body=body, category=category)
-
-		# 添加
-		db.session.add(post)
-		db.session.commit()
-
-		flash('Post created', 'success')
-
-		logger.debug('publish a new post, id = ' + str(post.id))
-		# 添加完成后跳转到博客详情页面查看具体内容
-		return redirect(url_for('blog.show_post', post_id=post.id))
-
-	return render_template('admin/new_post.html', form=form)
-
-
 @admin_bp.route("/category/new", methods=['GET', 'POST'])
 @login_required
 def new_category():
@@ -121,9 +96,46 @@ def delete_category(category_id):
 	return redirect_back()
 
 
+@admin_bp.route("/category/manage")
+@login_required
+def manage_categories():
+	logger.debug('request.url = ' + str(request.url))
+	categories = Category.query.all()
+
+	context = {}
+	context.update(categories=categories)
+
+	return render_template('admin/manage_categories.html', **context)
+
+
+@admin_bp.route("/post/new", methods=['POST', 'GET'])
+@login_required
+def new_post():
+	logger.debug('request.url = ' + str(request.url))
+	form = PostForm()
+	if form.validate_on_submit():
+		title = form.title.data
+		body = form.body.data
+		# 根据id得到category对象
+		category = Category.query.get(form.category.data)
+		post = Post(title=title, body=body, category=category)
+
+		# 添加
+		db.session.add(post)
+		db.session.commit()
+
+		flash('Post created', 'success')
+
+		logger.debug('publish a new post, id = ' + str(post.id))
+		# 添加完成后跳转到博客详情页面查看具体内容
+		return redirect(url_for('blog.show_post', post_id=post.id))
+
+	return render_template('admin/new_post.html', form=form)
+
+
 @admin_bp.route("/post/manage")
 @login_required
-def manage_post():
+def manage_posts():
 	logger.debug('request.url = ' + str(request.url))
 	# 页数设置
 	page = request.args.get('page', 1, type=int)
@@ -134,25 +146,7 @@ def manage_post():
 	context.update(posts=posts)
 	context.update(pagination=pagination)
 
-	return render_template('admin/manage_post.html', **context)
-
-
-@admin_bp.route("/category/manage")
-@login_required
-def manage_category():
-	logger.debug('request.url = ' + str(request.url))
-	categories = Category.query.all()
-
-	context = {}
-	context.update(categories=categories)
-
-	return render_template('admin/manage_category.html', **context)
-
-
-@admin_bp.route("/manage_comment")
-@login_required
-def manage_comment():
-	logger.debug('request.url' + str(request.url))
+	return render_template('admin/manage_posts.html', **context)
 
 
 @admin_bp.route('/post/edit/<int:post_id>', methods=['GET', 'POST'])
@@ -202,28 +196,55 @@ def delete_post(post_id):
 	return redirect_back()
 
 
-@admin_bp.route("/settings")
+@admin_bp.route('/post/comment_enabled/', methods=['GET', 'POST'])
 @login_required
-def settings():
-	logger.debug('request.url ' + str(request.url))
-
-
-@admin_bp.route('/post/comment_enabled/<int:post_id>', methods=['GET', 'POST'])
-@login_required
-def comment_enabled(post_id):
+def comment_enabled():
 	logger.debug('request.url = ' + str(request.url))
-	# post_id = request.args.get('post_id')
+	post_id = request.args.get('post_id')
 	post = Post.query.get_or_404(post_id)
 	# 将comment_enabled值转成相反的即可
-	if post.comment_enabled:
-		flash('Comment Disabled', 'info')
-		post.comment_enabled = False
-	else:
-		flash('Comment Enabled', 'info')
-		post.comment_enabled = True
-	db.session.commit()
+	# if post.comment_enabled:
+	# 	flash('Comment Disabled', 'info')
+	# 	post.comment_enabled = False
+	# else:
+	# 	flash('Comment Enabled', 'info')
+	# 	post.comment_enabled = True
+	info = dict()
+	info['result'] = True
+	post.comment_enabled = not post.comment_enabled
+	try:
+		db.session.commit()
+	except:
+		info['result'] = False
+		info['description'] = 'Setting Comment Disabled Failed'
 
-	return redirect_back()
+	return json.dumps(info)
+
+
+@admin_bp.route("/comment/manage")
+@login_required
+def manage_comments():
+	logger.debug('request.url' + str(request.url))
+
+	page = request.args.get('page', 1, type=int)
+	filter_rule = request.args.get('filter', 'all')
+	per_page = current_app.config.get('BLUE2BLOG_COMMENT_PER_PAGE', 15)
+
+	if filter_rule == 'unread':
+		filter_comments = Comment.query.filter_by(reviewed=False)
+	elif filter_rule == 'admin':
+		filter_comments = Comment.query.filter_by(from_admin=True)
+	else:
+		filter_comments = Comment.query
+
+	pagination = filter_comments.order_by(Comment.timestamp.desc()).paginate(page, per_page)
+	comments = pagination.items
+
+	context = dict()
+	context.update(pagination=pagination)
+	context.update(comments=comments)
+
+	return render_template('admin/manage_comments.html', **context)
 
 
 @admin_bp.route('/comment/delete/<int:comment_id>', methods=['GET', 'POST'])

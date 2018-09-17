@@ -86,8 +86,16 @@ def register_template_context(app):
 def register_errors(app):
 	# 自定义常见错误处理
 	@app.errorhandler(404)
-	def bad_request(e):
-		return render_template("errors/400.html"), 400
+	def error_404(e):
+		return render_template("errors/404.html"), 404
+
+	@app.errorhandler(400)
+	def error_400(e):
+		return render_template('errors/400.html'), 400
+
+	@app.errorhandler(500)
+	def error_500(e):
+		return render_template('errors/500.html'), 500
 
 
 def register_commands(app):

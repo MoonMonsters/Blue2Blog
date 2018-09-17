@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block title %}About{% endblock %}
+
+{% block content %}
+    <div class="page-header">
+        <h1>About</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            Name: <strong>ChenTao<br/></strong>
+            github: <strong><a href="https://github.com/MoonMonsters">MoonMonsters</a><br/></strong>
+            email: <strong><a href="mailto:qxinhai@yeah.net">qxinhai@yeah.net</a></strong>
+        </div>
+        <div class="col-sm-4 sidebar">
+            {% include "blog/_sidebar.html" %}
+        </div>
+    </div>
+{% endblock %}

@@ -6,6 +6,31 @@
     {{ post.title }}
 {% endblock title %}
 
+{% block head %}
+    {{ super() }}
+    <script type="text/javascript">
+        function comment_enabled(post_id) {
+            let path = "{{ url_for('admin.comment_enabled', _external = True) }}";
+
+            $.ajax({
+                data: {
+                    'post_id': post_id,
+                },
+                type: 'get',
+                url: path,
+                success: function (data) {
+                    let obj = JSON.parse(data);
+                    if (obj.result === true) {
+                        location.reload();
+                    } else {
+                        alert(obj.description);
+                    }
+                }
+            });
+        }
+    </script>
+{% endblock head %}
+
 {% block content %}
     <div class="page-header">
         <h1>{{ post.title }}</h1>
@@ -17,13 +42,21 @@
             </a><br/>
             Date:{{ moment(post.timestamp).format('LL') }}<br/>
             {% if current_user.is_authenticated %}
-                <form class="float-left" method="post"
-                      action="{{ url_for('admin.comment_enabled',post_id=post.id,next=request.full_path) }}">
-                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-                    Comment Enabled: &nbsp;&nbsp;<button type="submit" class="btn  btn-sm">
-                    {% if post.comment_enabled %}Enabled{% else %}Disabled{% endif %}
-                </button>
-                </form>
+                {#                <form class="float-left" method="post"#}
+                {#                      action="{{ url_for('admin.comment_enabled',post_id=post.id,next=request.full_path) }}">#}
+                {#                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">#}
+                {#                    Comment Enabled: &nbsp;&nbsp;<button type="submit" class="btn  btn-sm">#}
+                {#                    {% if post.comment_enabled %}Enabled{% else %}Disabled{% endif %}#}
+                {#                </button>#}
+                {#                </form>#}
+                {# 将button修改为checkbox，更容易判断是否已经开启评论功能 #}
+                <label>
+                    <span style="vertical-align:middle;">
+                    Comment Enabled:&nbsp;&nbsp;
+                    </span>
+                    <input type="checkbox" id="comment_enabled" style="vertical-align:middle;"
+                           onclick="comment_enabled({{ post.id }})" {% if post.comment_enabled %}checked{% endif %}>
+                </label>
             {% endif %}
         </small>
     </div>

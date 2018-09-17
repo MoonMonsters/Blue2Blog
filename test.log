@@ -2555,3 +2555,605 @@
 
 2018/09/16 23:28:02 8680 utils.py _log 33 now time is 2018-09-16 23:28:02.502284
 2018/09/16 23:28:02 8680 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 23:28:31 11868 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 23:28:31 11868 utils.py _log 33 now time is 2018-09-16 23:28:31.885350
+2018/09/16 23:28:31 11868 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 23:28:33 5876 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/16 23:28:33 5876 utils.py _log 33 now time is 2018-09-16 23:28:33.326086
+2018/09/16 23:28:33 5876 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/16 23:28:36 8196 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 23:28:39 1188 admin.py manage_category 143 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/16 23:28:41 8784 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/16 23:28:45 17356 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:28:59 16408 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:28:59 16408 blog.py show_post 129 comment_id = None
+2018/09/16 23:29:00 12892 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:29:08 14956 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:29:09 4532 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:29:25 13032 admin.py review_comment 253 request.url = http://127.0.0.1:5000/admin/comment/review/601?next=%2Fpost%2F49%3F
+2018/09/16 23:29:25 8596 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:29:28 14408 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:31:15 15676 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/16 23:32:33 9616 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fpost%2F49%3F
+2018/09/16 23:32:33 9616 blog.py change_theme 190 response = <Response 225 bytes [302 FOUND]>
+2018/09/16 23:32:33 16672 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:40:08 18992 admin.py settings 208 request.url http://127.0.0.1:5000/admin/settings
+2018/09/17 20:40:10 1116 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:50:11 18512 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 20:50:11 18512 utils.py _log 33 now time is 2018-09-17 20:50:11.639253
+2018/09/17 20:50:11 18512 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 20:50:13 1580 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 20:50:13 1580 utils.py _log 33 now time is 2018-09-17 20:50:13.150062
+2018/09/17 20:50:13 1580 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 20:53:16 2328 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:53:20 10520 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/45555
+2018/09/17 20:53:29 11140 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 20:54:37 3892 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 20:54:48 19404 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 20:55:02 19280 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 20:55:02 19124 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 20:55:13 4060 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 20:55:22 14468 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:55:31 17836 admin.py comment_enabled 214 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/49?next=%2Fpost%2F49%3F
+2018/09/17 20:55:31 15328 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:55:32 17112 admin.py comment_enabled 214 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/49?next=%2Fpost%2F49%3F
+2018/09/17 20:55:32 19252 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:57:02 16164 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:57:14 16756 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:58:30 19164 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:58:34 16916 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:59:10 16164 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:59:11 15416 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 20:59:11 3920 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:03 5932 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:07 5836 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:08 18632 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:09 536 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:11 18012 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:15 6004 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:00:15 7516 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:01:52 4804 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:02:06 13980 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:02:38 16472 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:02:39 13848 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:02:40 10792 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:05:32 15128 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:05:33 16984 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 21:05:33 16984 utils.py _log 33 now time is 2018-09-17 21:05:33.480186
+2018/09/17 21:05:33 16984 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 21:05:34 11680 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:05:38 14684 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49?post_id=49&type=get&url=url_for('admin.comment_enabled'%2C_external%3DTrue)
+2018/09/17 21:05:41 3428 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:05:54 18720 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:06:47 6340 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:06:49 3576 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:06:53 18480 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49?post_id=49&type=get&url=http%3A%2F%2F127.0.0.1%3A5000%2Fadmin%2Fpost%2Fcomment_enabled%2F
+2018/09/17 21:06:55 4260 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:07:19 3020 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:07:27 18164 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49?post_id=49&type=get&url=http%3A%2F%2F127.0.0.1%3A5000%2Fadmin%2Fpost%2Fcomment_enabled%2F
+2018/09/17 21:08:14 12836 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:08:21 1604 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49?post_id=49&url=http%3A%2F%2F127.0.0.1%3A5000%2Fadmin%2Fpost%2Fcomment_enabled%2F
+2018/09/17 21:10:31 19132 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:10:33 18024 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:10:35 19444 admin.py comment_enabled 214 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=49
+2018/09/17 21:10:35 17424 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:10:42 19272 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:10:44 16264 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:10:52 17704 admin.py comment_enabled 214 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=49
+2018/09/17 21:10:52 18628 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:12:12 13096 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 21:12:12 13096 utils.py _log 33 now time is 2018-09-17 21:12:12.308691
+2018/09/17 21:12:12 13096 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 21:15:08 10572 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 21:15:08 10572 utils.py _log 33 now time is 2018-09-17 21:15:08.039294
+2018/09/17 21:15:08 10572 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 21:15:17 5836 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:15:25 16388 admin.py comment_enabled 214 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=49
+2018/09/17 21:15:25 18080 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:18:54 15760 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 21:18:54 15760 utils.py _log 33 now time is 2018-09-17 21:18:54.166044
+2018/09/17 21:18:54 15760 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 21:18:55 8904 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/6666
+2018/09/17 21:19:13 2600 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:22:28 9832 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:24:16 16616 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:24:41 9996 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:25:11 15984 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:26:43 16068 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:26:43 17056 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:05 17624 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:08 16788 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:08 16788 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:08 17144 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:10 17924 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:10 17924 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:10 12352 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:14 14096 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:14 14096 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:14 18096 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:15 240 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:15 240 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:15 12464 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:27 13228 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:30 15440 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:30 15440 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:30 13144 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:31 13148 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:31 13148 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:31 15192 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:32 16080 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:32 16080 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:32 7896 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:27:33 10492 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:27:33 10492 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:27:33 15932 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:36 11028 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:36 11028 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:36 17260 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:38 17656 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:38 17656 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:38 15824 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:41 8572 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:41 8572 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:41 11636 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:43 17064 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:43 17064 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:43 18404 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:44 8564 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:44 8564 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:44 13688 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:45 7792 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:45 7792 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:45 18084 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:46 2728 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:46 2728 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:46 18516 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:48 17784 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:48 17784 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:48 2396 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:49 15092 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:49 15092 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:49 14868 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:50 11488 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:50 11488 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:50 11108 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:51 16188 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:51 16188 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:51 13024 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:53 15276 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:53 15276 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:53 6536 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:54 8224 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:54 8224 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:54 17756 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:55 14564 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:55 14564 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:55 10736 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:56 9300 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:56 9300 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:56 15984 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:57 19356 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:57 19356 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:57 18968 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:34:58 12944 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3F
+2018/09/17 21:34:58 12944 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:34:59 8056 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:35:00 13928 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fcategory%2F1%3F
+2018/09/17 21:35:00 13928 blog.py change_theme 190 response = <Response 231 bytes [302 FOUND]>
+2018/09/17 21:35:00 15964 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:37:21 19188 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:37:49 16684 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:37:51 17084 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fpost%2F49%3F
+2018/09/17 21:37:51 17084 blog.py change_theme 190 response = <Response 225 bytes [302 FOUND]>
+2018/09/17 21:37:51 13336 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:39:11 19056 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:39:33 8728 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:39:54 3968 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:40:21 5848 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:40:22 3832 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:40:22 15776 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:40:27 17728 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fpost%2F49%3F
+2018/09/17 21:40:27 17728 blog.py change_theme 190 response = <Response 225 bytes [302 FOUND]>
+2018/09/17 21:40:27 11480 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:40:45 11108 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:40:54 4804 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:41:22 9672 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:41:39 10108 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:42:33 8956 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:42:52 6808 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:42:56 17516 auth.py login 17 is_authenticated = False
+2018/09/17 21:42:56 17516 auth.py login 42 redirect to login.html
+2018/09/17 21:43:37 8788 auth.py login 17 is_authenticated = False
+2018/09/17 21:43:37 8788 auth.py login 42 redirect to login.html
+2018/09/17 21:44:08 6976 auth.py login 17 is_authenticated = False
+2018/09/17 21:44:08 6976 auth.py login 42 redirect to login.html
+2018/09/17 21:44:35 12416 auth.py login 17 is_authenticated = False
+2018/09/17 21:44:35 12416 auth.py login 42 redirect to login.html
+2018/09/17 21:44:37 14660 auth.py login 17 is_authenticated = False
+2018/09/17 21:44:37 14660 auth.py login 42 redirect to login.html
+2018/09/17 21:44:40 15288 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:44:45 10792 auth.py login 17 is_authenticated = False
+2018/09/17 21:44:45 10792 auth.py login 42 redirect to login.html
+2018/09/17 21:44:56 14000 auth.py login 17 is_authenticated = False
+2018/09/17 21:44:56 14000 auth.py login 42 redirect to login.html
+2018/09/17 21:44:59 4580 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:45:02 13916 auth.py login 17 is_authenticated = False
+2018/09/17 21:45:02 13916 auth.py login 42 redirect to login.html
+2018/09/17 21:46:05 5848 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:46:17 16244 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 21:46:34 15964 admin.py new_post 21 request.url = http://127.0.0.1:5000/admin/post/new
+2018/09/17 21:46:39 17696 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 21:47:30 9220 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 21:47:33 12552 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 21:47:36 6232 admin.py manage_category 143 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 21:47:39 17988 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 21:47:41 16644 admin.py manage_category 143 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 21:47:42 8048 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:47:44 16560 blog.py about 44 request.url = http://127.0.0.1:5000/about
+2018/09/17 21:47:45 4620 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:47:46 14900 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:47:46 12760 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:47:48 17860 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:48:20 18124 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:48:23 10028 auth.py logout 50 user logout
+2018/09/17 21:48:23 15076 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:48:33 8860 auth.py login 17 is_authenticated = False
+2018/09/17 21:48:33 8860 auth.py login 42 redirect to login.html
+2018/09/17 21:48:37 17616 auth.py login 17 is_authenticated = False
+2018/09/17 21:48:37 17616 auth.py login 31 login success
+2018/09/17 21:48:37 2200 auth.py login 17 is_authenticated = True
+2018/09/17 21:48:37 16520 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:48:47 3952 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:49:00 6864 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:50:09 6976 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:50:10 7816 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:50:11 15472 blog.py about 44 request.url = http://127.0.0.1:5000/about
+2018/09/17 21:50:17 10640 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:50:19 15028 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:50:20 15184 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:50:59 6692 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:51:00 8236 admin.py comment_enabled 214 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=49
+2018/09/17 21:51:01 18340 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:51:09 9932 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:51:11 18512 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/5
+2018/09/17 21:51:23 7132 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/5
+2018/09/17 21:51:23 7132 blog.py show_post 129 comment_id = None
+2018/09/17 21:51:24 7944 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/5
+2018/09/17 21:51:32 16724 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 21:51:39 10576 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:53:37 12884 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 21:53:46 18984 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 21:53:48 12300 admin.py manage_category 143 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 22:53:39 8744 auth.py logout 50 user logout
+2018/09/17 22:53:52 2604 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:53:53 10560 auth.py login 17 is_authenticated = False
+2018/09/17 22:53:53 10560 auth.py login 42 redirect to login.html
+2018/09/17 22:53:55 13424 auth.py login 17 is_authenticated = False
+2018/09/17 22:53:55 13424 auth.py login 31 login success
+2018/09/17 22:53:55 16868 auth.py login 17 is_authenticated = True
+2018/09/17 22:53:55 19128 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:53:57 14408 auth.py logout 50 user logout
+2018/09/17 22:53:57 11772 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:53:59 13892 auth.py login 17 is_authenticated = False
+2018/09/17 22:53:59 13892 auth.py login 42 redirect to login.html
+2018/09/17 22:54:00 16084 auth.py login 17 is_authenticated = False
+2018/09/17 22:54:00 16084 auth.py login 31 login success
+2018/09/17 22:54:00 18684 auth.py login 17 is_authenticated = True
+2018/09/17 22:54:00 10600 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:54:02 19308 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 22:54:03 17948 admin.py manage_category 143 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 22:54:06 2472 auth.py logout 50 user logout
+2018/09/17 22:54:10 14908 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:55:02 19028 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 22:55:02 19028 utils.py _log 33 now time is 2018-09-17 22:55:02.354539
+2018/09/17 22:55:02 19028 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 22:55:10 17412 auth.py login 17 is_authenticated = False
+2018/09/17 22:55:10 17412 auth.py login 42 redirect to login.html
+2018/09/17 22:55:12 8036 auth.py login 17 is_authenticated = False
+2018/09/17 22:55:12 8036 auth.py login 31 login success
+2018/09/17 22:55:12 8956 auth.py login 17 is_authenticated = True
+2018/09/17 22:55:12 19384 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:55:15 18844 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 22:55:17 18084 auth.py logout 50 user logout
+2018/09/17 22:55:26 8076 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:56:04 16576 auth.py login 17 is_authenticated = False
+2018/09/17 22:56:04 16576 auth.py login 42 redirect to login.html
+2018/09/17 22:56:08 6240 auth.py login 17 is_authenticated = False
+2018/09/17 22:56:08 6240 auth.py login 31 login success
+2018/09/17 22:56:08 11648 auth.py login 17 is_authenticated = True
+2018/09/17 22:56:08 12472 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:56:10 13080 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 22:56:11 15912 auth.py logout 50 user logout
+2018/09/17 22:56:34 13236 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 22:56:34 13236 utils.py _log 33 now time is 2018-09-17 22:56:34.061783
+2018/09/17 22:56:34 13236 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 22:56:39 17936 auth.py login 17 is_authenticated = False
+2018/09/17 22:56:39 17936 auth.py login 42 redirect to login.html
+2018/09/17 22:56:42 6816 auth.py login 17 is_authenticated = False
+2018/09/17 22:56:42 6816 auth.py login 31 login success
+2018/09/17 22:56:42 15848 auth.py login 17 is_authenticated = True
+2018/09/17 22:56:42 11720 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:56:45 16792 admin.py manage_post 127 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/17 22:56:48 15188 auth.py logout 50 user logout
+2018/09/17 22:56:48 11864 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:56:52 2748 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 22:56:57 9468 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1?page=2
+2018/09/17 22:57:00 15620 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1?page=5
+2018/09/17 22:57:03 16508 blog.py change_theme 182 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fcategory%2F1%3Fpage%3D5
+2018/09/17 22:57:03 16508 blog.py change_theme 190 response = <Response 243 bytes [302 FOUND]>
+2018/09/17 22:57:03 16996 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1?page=5
+2018/09/17 22:57:09 8228 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:57:18 17620 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 22:57:21 18452 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:57:24 12864 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46
+2018/09/17 22:57:31 16164 blog.py reply_comment 160 request.url = http://127.0.0.1:5000/reply/comment/461
+2018/09/17 22:57:31 16164 blog.py reply_comment 175 redirect.url = <Response 317 bytes [302 FOUND]>
+2018/09/17 22:57:31 5876 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46?reply=461&author=Mark+Marquez
+2018/09/17 22:57:42 18100 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46?reply=461&author=Mark+Marquez
+2018/09/17 22:57:42 18100 blog.py show_post 129 comment_id = 461
+2018/09/17 22:57:42 18100 blog.py show_post 133 replied_comment.id = 461
+2018/09/17 22:57:42 18556 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46
+2018/09/17 22:57:50 18340 auth.py login 17 is_authenticated = False
+2018/09/17 22:57:50 18340 auth.py login 42 redirect to login.html
+2018/09/17 22:57:51 9320 auth.py login 17 is_authenticated = False
+2018/09/17 22:57:52 9320 auth.py login 31 login success
+2018/09/17 22:57:52 16724 auth.py login 17 is_authenticated = True
+2018/09/17 22:57:52 15608 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:57:55 15196 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/45
+2018/09/17 22:58:00 2740 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:58:02 17272 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/29
+2018/09/17 22:58:28 19176 auth.py logout 50 user logout
+2018/09/17 22:58:28 1524 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:58:32 10932 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 22:58:35 6784 auth.py login 17 is_authenticated = False
+2018/09/17 22:58:35 6784 auth.py login 42 redirect to login.html
+2018/09/17 22:58:36 2300 auth.py login 17 is_authenticated = False
+2018/09/17 22:58:37 2300 auth.py login 31 login success
+2018/09/17 22:58:37 16732 auth.py login 17 is_authenticated = True
+2018/09/17 22:58:37 10852 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 22:58:42 1656 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 22:59:35 2632 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 22:59:36 13208 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/49
+2018/09/17 22:59:39 13148 auth.py logout 50 user logout
+2018/09/17 22:59:39 15460 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:00:04 19424 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:12:23 17844 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:15:38 17580 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 23:15:38 17580 utils.py _log 33 now time is 2018-09-17 23:15:38.754188
+2018/09/17 23:15:38 17580 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 23:15:44 18292 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:16:03 2604 auth.py login 17 is_authenticated = False
+2018/09/17 23:16:03 2604 auth.py login 42 redirect to login.html
+2018/09/17 23:16:10 3968 auth.py login 17 is_authenticated = False
+2018/09/17 23:16:10 3968 auth.py login 31 login success
+2018/09/17 23:16:10 808 auth.py login 17 is_authenticated = True
+2018/09/17 23:16:10 1756 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:16:48 14116 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 23:16:48 14116 utils.py _log 33 now time is 2018-09-17 23:16:48.869668
+2018/09/17 23:16:48 14116 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 23:16:52 13140 auth.py login 17 is_authenticated = False
+2018/09/17 23:16:52 13140 auth.py login 42 redirect to login.html
+2018/09/17 23:16:57 12892 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:17:48 18600 auth.py login 17 is_authenticated = False
+2018/09/17 23:17:48 18600 auth.py login 42 redirect to login.html
+2018/09/17 23:17:52 8164 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:17:56 1456 admin.py manage_comments 155 request.urlhttp://127.0.0.1:5000/admin/manage_comment
+2018/09/17 23:18:15 17356 auth.py login 17 is_authenticated = False
+2018/09/17 23:18:15 17356 auth.py login 42 redirect to login.html
+2018/09/17 23:18:18 3028 admin.py manage_comments 155 request.urlhttp://127.0.0.1:5000/admin/manage_comment
+2018/09/17 23:22:51 3508 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 23:22:51 3508 utils.py _log 33 now time is 2018-09-17 23:22:51.429276
+2018/09/17 23:22:51 3508 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 23:23:01 15716 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage
+2018/09/17 23:23:31 13956 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage
+2018/09/17 23:23:34 896 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:23:35 1716 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=admin
+2018/09/17 23:23:36 13852 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:23:37 13224 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:23:38 11648 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:23:40 6700 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:23:41 2032 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:23:41 14236 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=admin
+2018/09/17 23:23:47 12540 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:23:48 9452 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:25:19 18280 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 23:25:19 18280 utils.py _log 33 now time is 2018-09-17 23:25:19.723960
+2018/09/17 23:25:19 18280 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 23:29:25 17788 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 23:29:25 17788 utils.py _log 33 now time is 2018-09-17 23:29:25.394260
+2018/09/17 23:29:25 17788 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 23:29:25 17788 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:29:38 12836 utils.py _log 32 
+
+
+
+
+
+
+
+
+
+
+2018/09/17 23:29:38 12836 utils.py _log 33 now time is 2018-09-17 23:29:38.590753
+2018/09/17 23:29:38 12836 utils.py _log 34 --------------------------------------------------------------------------------
+2018/09/17 23:29:48 10528 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:29:50 6232 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:29:51 18972 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:30:13 15468 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:31:11 13188 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:32:25 16100 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:32:56 15528 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=all
+2018/09/17 23:33:40 7840 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:35:15 17536 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:36:26 14848 admin.py manage_comments 227 request.urlhttp://127.0.0.1:5000/admin/comment/manage?filter=unread
+2018/09/17 23:37:13 7516 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46
+2018/09/17 23:37:55 16520 admin.py comment_enabled 202 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=46
+2018/09/17 23:37:55 12592 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46
+2018/09/17 23:38:24 16000 admin.py comment_enabled 202 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=46
+2018/09/17 23:38:24 10996 blog.py show_post 69 request.url = http://127.0.0.1:5000/post/46
+2018/09/17 23:40:02 15064 blog.py about 44 request.url = http://127.0.0.1:5000/about
+2018/09/17 23:43:03 1704 blog.py about 44 request.url = http://127.0.0.1:5000/about
+2018/09/17 23:44:06 12900 blog.py about 44 request.url = http://127.0.0.1:5000/about
+2018/09/17 23:45:56 12568 blog.py about 44 request.url = http://127.0.0.1:5000/about
+2018/09/17 23:46:21 10772 blog.py show_category 50 request.url = http://127.0.0.1:5000/category/1
+2018/09/17 23:46:28 18016 auth.py login 17 is_authenticated = False
+2018/09/17 23:46:28 18016 auth.py login 31 login success
+2018/09/17 23:46:28 11804 auth.py login 17 is_authenticated = True
+2018/09/17 23:46:28 16884 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:47:27 8724 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/17 23:49:32 10092 admin.py manage_categories 102 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 23:50:40 17924 admin.py manage_categories 102 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 23:51:30 15212 admin.py new_category 21 request.url = http://127.0.0.1:5000/admin/category/new?category_name=Flask
+2018/09/17 23:51:30 15212 admin.py new_category 40 info = {"success": true, "description": "Add category success"}
+2018/09/17 23:51:32 7512 admin.py manage_categories 102 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/17 23:52:54 10536 admin.py manage_categories 102 request.url = http://127.0.0.1:5000/admin/category/manage

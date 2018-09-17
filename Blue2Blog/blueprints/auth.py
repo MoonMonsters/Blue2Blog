@@ -51,4 +51,4 @@ def logout():
 	# 退出，详细可以查看代码，很容易理解
 	logout_user()
 	flash('Logout success.', 'info')
-	return redirect_back()
+	return redirect(url_for('blog.index'))

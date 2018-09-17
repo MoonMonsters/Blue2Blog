@@ -20,12 +20,12 @@ def fake_admin():
 	"""
 	admin = Admin(
 		username='admin',
-		blog_title='BlueBlog',
-		blog_sub_title='blue_2_blog',
+		blog_title='Blue2Blog',
+		blog_sub_title='This is a flask blog',
 		name='ChenTao',
-		about='Hello, I am ChenTao',
-		password_hash='123456'
+		about='I am a serious man',
 	)
+	admin.set_password('123456')
 	db.session.add(admin)
 	db.session.commit()
 
