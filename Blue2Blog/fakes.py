@@ -19,11 +19,11 @@ def fake_admin():
 	创建测试用户
 	"""
 	admin = Admin(
-		username='admin',
+		username='admin001',
 		blog_title='Blue2Blog',
 		blog_sub_title='This is a flask blog',
 		name='ChenTao',
-		about='I am a serious man',
+		about='I am a test admin, having no permissions to delete/create/modify anything',
 	)
 	admin.set_password('123456')
 	db.session.add(admin)

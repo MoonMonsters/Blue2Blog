@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initail-scale=1, shrink-to-fit=no">
         <title>{% block title %}{% endblock title %} - Blue2Blog</title>
+        {# 需要先添加jquery，否则大量功能都不能实现 #}
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         {#        <script type="text/javascript" src="{{ url_for('static',filename='js/jquery-3.2.1.slim.min.js') }}">#}
         {#        </script>#}
@@ -50,6 +51,9 @@
                                 </a>
                                 <a class="dropdown-item" href="{{ url_for('admin.manage_comments') }}">
                                     Manage Comments
+                                    {% if unread_comments %}
+                                        <span style="color:red;"><small>({{ unread_comments }})</small></span>
+                                    {% endif %}
                                 </a>
                                 <a class="dropdown-item" href="{{ url_for('auth.logout') }}">
                                     Logout
@@ -91,6 +95,10 @@
         </div>
     {% endfor %}
     {% block content %}{% endblock content %}
+    {% block footer %}
+        <hr>
+        <br/>
+    {% endblock %}
 </main>
 
 {% block scripts %}

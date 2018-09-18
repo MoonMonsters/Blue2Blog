@@ -8,7 +8,7 @@ from flask import request, redirect, url_for, render_template, flash
 from flask_login import login_required
 
 from Blue2Blog.models import Post, Category, Comment
-from Blue2Blog.utils import logger, redirect_back
+from Blue2Blog.utils import logger, redirect_back, stint_login_user
 from Blue2Blog.forms import PostForm
 from Blue2Blog.extensions import db
 
@@ -17,6 +17,7 @@ admin_bp = Blueprint("admin", __name__)
 
 @admin_bp.route("/category/new", methods=['GET', 'POST'])
 @login_required
+@stint_login_user
 def new_category():
 	logger.debug('request.url = ' + str(request.url))
 
@@ -43,6 +44,7 @@ def new_category():
 
 @admin_bp.route('/category/edit', methods=['POST', 'GET'])
 @login_required
+@stint_login_user
 def edit_category():
 	"""
 	更新category的名称
@@ -72,6 +74,7 @@ def edit_category():
 
 @admin_bp.route('/category/delete/<int:category_id>', methods=['GET', 'POST'])
 @login_required
+@stint_login_user
 def delete_category(category_id):
 	if category_id == 1:
 		flash('Can Not Delete The Default Category', 'warning')
@@ -110,6 +113,7 @@ def manage_categories():
 
 @admin_bp.route("/post/new", methods=['POST', 'GET'])
 @login_required
+@stint_login_user
 def new_post():
 	logger.debug('request.url = ' + str(request.url))
 	form = PostForm()
@@ -151,6 +155,7 @@ def manage_posts():
 
 @admin_bp.route('/post/edit/<int:post_id>', methods=['GET', 'POST'])
 @login_required
+@stint_login_user
 def edit_post(post_id):
 	logger.debug('request.url = ' + str(request.url))
 	form = PostForm()
@@ -179,6 +184,7 @@ def edit_post(post_id):
 
 @admin_bp.route('/post/delete/<int:post_id>', methods=['POST'])
 @login_required
+@stint_login_user
 def delete_post(post_id):
 	"""
 	删除博客
@@ -198,6 +204,7 @@ def delete_post(post_id):
 
 @admin_bp.route('/post/comment_enabled/', methods=['GET', 'POST'])
 @login_required
+@stint_login_user
 def comment_enabled():
 	logger.debug('request.url = ' + str(request.url))
 	post_id = request.args.get('post_id')
@@ -249,6 +256,7 @@ def manage_comments():
 
 @admin_bp.route('/comment/delete/<int:comment_id>', methods=['GET', 'POST'])
 @login_required
+@stint_login_user
 def delete_comment(comment_id):
 	"""
 	删除评论
@@ -265,6 +273,7 @@ def delete_comment(comment_id):
 
 @admin_bp.route('comment/review/<int:comment_id>', methods=['GET', 'POST'])
 @login_required
+@stint_login_user
 def review_comment(comment_id):
 	"""
 	评论审核通过

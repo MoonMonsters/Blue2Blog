@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import logging
+from functools import wraps
 from datetime import datetime
 from urllib.parse import urlparse, urljoin
 
-from flask import request, redirect, url_for
+from flask import request, redirect, url_for, flash
+from flask_login import current_user
 
 
 def _log():
@@ -46,6 +48,9 @@ def is_safe_url(target):
 
 
 def redirect_back(default='blog.index', **kwargs):
+	"""
+	返回原链接
+	"""
 	for target in request.args.get('next'), request.referrer:
 		if not target:
 			continue
@@ -53,3 +58,24 @@ def redirect_back(default='blog.index', **kwargs):
 			return redirect(target)
 
 	return redirect(url_for(default, **kwargs))
+
+
+def stint_login_user(func):
+	"""
+	当使用admin001测试账号时，限制权限，只有查看后台权限，无法修改
+	"""
+	logger.debug('func.__name__ = ' + str(func.__name__))
+
+	@wraps(func)
+	def wrapper(*args, **kwargs):
+		logger.debug('current_user.username = ' + str(current_user.username))
+		# 如果是admin001账号，只能查看后台，不能修改任何数据
+		if current_user.username == 'admin001':
+			# 如果网页中使用的是ajax异步请求，该flash消息无法发送到网页中，暂时不清楚如何解决
+			flash('Sorry, You Do Not Have Enough Permission To Do This.', 'warning')
+			return redirect_back()
+		else:
+			f = func(*args, **kwargs)
+			return f
+
+	return wrapper

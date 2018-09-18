@@ -23,8 +23,8 @@ def login():
 		username = form.username.data
 		password = form.password.data
 		remember = form.remember.data
-		# 个人博客，所以只有一个账号
-		admin = Admin.query.first()
+		logger.debug('admin.username = ' + str(username))
+		admin = Admin.query.filter_by(username=username).first()
 		if admin:
 			# 验证账号和密码是否匹配
 			if username == admin.username and admin.validate_password_hash(password):
@@ -34,8 +34,7 @@ def login():
 				flash('Welcome back', 'info')
 				return redirect_back()
 			logger.debug('login fail')
-			logger.debug('admin = ' + str(admin))
-			logger.debug(f'username is right ? {username},{admin.username}')
+			logger.debug(f'username is right ? {username},----{admin.username}')
 			logger.debug('password is right ? ' + str(admin.validate_password_hash(password)))
 		else:
 			flash('No account.', 'warning')

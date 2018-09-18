@@ -14,7 +14,7 @@ from Blue2Blog.blueprints.auth import auth_bp
 from Blue2Blog.blueprints.blog import blog_bp
 from Blue2Blog.extensions import bootstrap, db, moment, mail, ckeditor, login_manager, csrf
 from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_posts
-from Blue2Blog.models import Admin, Category, Comment
+from Blue2Blog.models import Admin, Category, Comment, Post
 from Blue2Blog.emails import send_new_comment_mail
 from Blue2Blog.utils import logger
 
@@ -60,7 +60,8 @@ def register_shell_context(app):
 	# 使用shell时传入参数
 	@app.shell_context_processor
 	def make_shell_context():
-		return dict(db=db)
+		# 在使用python shell时，就可以直接使用db, Admin等数据了，不需要再重新导入
+		return dict(db=db, Admin=Admin, Post=Post, Comment=Comment, Category=Category)
 
 
 def register_template_context(app):
@@ -109,15 +110,15 @@ def register_commands(app):
 	)
 	@click.option("--post", default=50, help="Quantity of posts, default is 50")
 	@click.option("--comment", default=500, help="Quantity of comments, default is 500")
-	def forge(category, post, comment):
+	def fake(category, post, comment):
 		"""
-		创建测试数据
+		创建测试数据，部署时需要注释掉
 		"""
 		db.drop_all()
 		db.create_all()
 
-		click.echo("Generating the admin")
-		fake_admin()
+		# click.echo("Generating the admin")
+		# fake_admin()
 
 		click.echo("Generating %d categories" % category)
 		fake_categories(category)
@@ -131,12 +132,15 @@ def register_commands(app):
 		click.echo("All Done...")
 
 	@app.cli.command()
+	def fake_some_comments():
+		fake_comments(count=100)
+
+	@app.cli.command()
 	def send_email():
 		"""
 		测试邮件功能
 		"""
 		click.echo("Send a new mail")
-		from Blue2Blog.models import Post
 
 		post = Post.query.get(1)
 		send_new_comment_mail(post)
@@ -154,7 +158,7 @@ def register_commands(app):
 		confirmation_prompt=True,
 		help="The password used to login",
 	)
-	def init_admin(username, password):
+	def admin(username, password):
 		"""
 		创建admin账号，如果已经有了，则覆盖
 		"""
@@ -164,21 +168,28 @@ def register_commands(app):
 		click.echo("Init the database")
 		db.create_all()
 
-		admin = Admin.query.first()
-		if admin is None:
-			click.echo("The admin is not exists, create")
-			admin = Admin(
-				username=username,
-				blog_title="Blue2Blog",
-				blog_sub_title="I am a serious man.",
-				about="Nothing of you",
-			)
-			admin.set_password(password)
+		admin_length = Admin.query.count()
+
+		# 如果只有一个管理员，则自动创建一个
+		# 该管理员只有查看后台功能，没有其他权限
+		if admin_length == 0:
+			fake_admin()
+
+		if admin_length > 2:
+			click.echo("Already having two admins, return it")
+			return
 		else:
-			click.echo('The admin is exists, update')
+			admin = Admin()
 			admin.username = username
 			admin.set_password(password)
-		db.session.add(admin)
+			admin.blog_title = "Blue2Blog"
+			admin.blog_sub_title = "I am a serious man."
+			admin.name = 'FlynnGod'
+			admin.about = "I have the all permissions"
+
+			click.echo('Creating a new admin, also the last admin.')
+			db.session.add(admin)
+
 		category = Category.query.first()
 		if category is None:
 			click.echo("Creating the default category...")
