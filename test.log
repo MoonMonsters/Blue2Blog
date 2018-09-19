@@ -4120,3 +4120,1576 @@
 2018/09/18 21:53:58 10568 utils.py stint_login_user 67 func.__name__ = comment_enabled
 2018/09/18 21:53:58 10568 utils.py stint_login_user 67 func.__name__ = delete_comment
 2018/09/18 21:53:58 10568 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 21:58:00 4676 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 21:58:00 4676 utils.py _log 35 now time is 2018-09-18 21:58:00.948211
+2018/09/18 21:58:00 4676 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 21:58:00 4676 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 21:58:02 260 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 21:58:02 260 utils.py _log 35 now time is 2018-09-18 21:58:02.397870
+2018/09/18 21:58:02 260 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 21:58:02 260 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 21:58:25 18968 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 21:58:26 6928 auth.py login 17 is_authenticated = False
+2018/09/18 21:58:26 6928 auth.py login 41 redirect to login.html
+2018/09/18 21:58:28 9856 auth.py login 17 is_authenticated = False
+2018/09/18 21:58:28 9856 auth.py login 26 admin.username = admin
+2018/09/18 21:58:28 9856 auth.py login 31 login success
+2018/09/18 21:58:28 10044 auth.py login 17 is_authenticated = True
+2018/09/18 21:58:28 2860 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 21:58:31 16100 auth.py logout 49 user logout
+2018/09/18 21:58:31 18600 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 21:58:32 18392 auth.py login 17 is_authenticated = False
+2018/09/18 21:58:32 18392 auth.py login 41 redirect to login.html
+2018/09/18 21:58:35 3308 auth.py login 17 is_authenticated = False
+2018/09/18 21:58:35 3308 auth.py login 26 admin.username = admin001
+2018/09/18 21:58:36 3308 auth.py login 31 login success
+2018/09/18 21:58:36 6844 auth.py login 17 is_authenticated = True
+2018/09/18 21:58:36 14500 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 21:58:43 13580 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 21:58:43 13580 utils.py _log 35 now time is 2018-09-18 21:58:43.895233
+2018/09/18 21:58:43 13580 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 21:58:43 13580 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 21:58:45 18712 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 21:58:45 18712 utils.py _log 35 now time is 2018-09-18 21:58:45.408009
+2018/09/18 21:58:45 18712 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 21:58:45 18712 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 21:58:48 7840 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 21:58:50 3700 auth.py login 17 is_authenticated = False
+2018/09/18 21:58:50 3700 auth.py login 41 redirect to login.html
+2018/09/18 21:58:52 19376 auth.py login 17 is_authenticated = False
+2018/09/18 21:58:52 19376 auth.py login 26 admin.username = admin
+2018/09/18 21:58:52 19376 auth.py login 31 login success
+2018/09/18 21:58:52 1272 auth.py login 17 is_authenticated = True
+2018/09/18 21:58:52 12324 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 22:01:50 16348 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:01:50 16348 utils.py _log 35 now time is 2018-09-18 22:01:50.705432
+2018/09/18 22:01:50 16348 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:01:50 16348 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:01:58 5380 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:01:58 5380 utils.py _log 35 now time is 2018-09-18 22:01:58.379323
+2018/09/18 22:01:58 5380 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:01:58 5380 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:02:32 14316 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:02:32 14316 utils.py _log 35 now time is 2018-09-18 22:02:32.600697
+2018/09/18 22:02:32 14316 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:02:32 14316 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:02:56 14220 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:02:56 14220 utils.py _log 35 now time is 2018-09-18 22:02:56.960603
+2018/09/18 22:02:56 14220 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:02:56 14220 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:02:58 9904 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:02:58 9904 utils.py _log 35 now time is 2018-09-18 22:02:58.381341
+2018/09/18 22:02:58 9904 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:02:58 9904 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:03:02 10200 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 22:03:04 14664 auth.py login 17 is_authenticated = False
+2018/09/18 22:03:04 14664 auth.py login 41 redirect to login.html
+2018/09/18 22:03:05 11008 auth.py login 17 is_authenticated = False
+2018/09/18 22:03:05 11008 auth.py login 26 admin.username = admin
+2018/09/18 22:03:05 11008 auth.py login 41 redirect to login.html
+2018/09/18 22:03:11 18272 auth.py login 17 is_authenticated = False
+2018/09/18 22:03:11 18272 auth.py login 26 admin.username = admin001
+2018/09/18 22:03:11 18272 auth.py login 41 redirect to login.html
+2018/09/18 22:03:17 16332 auth.py login 17 is_authenticated = False
+2018/09/18 22:03:17 16332 auth.py login 26 admin.username = admin001
+2018/09/18 22:03:17 16332 auth.py login 41 redirect to login.html
+2018/09/18 22:03:29 13816 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:03:29 13816 utils.py _log 35 now time is 2018-09-18 22:03:29.125772
+2018/09/18 22:03:29 13816 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:03:29 13816 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:03:36 13816 __init__.py admin 166 admin.username = admin
+2018/09/18 22:03:47 2032 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:03:47 2032 utils.py _log 35 now time is 2018-09-18 22:03:47.695076
+2018/09/18 22:03:47 2032 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:03:47 2032 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:03:49 7152 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:03:49 7152 utils.py _log 35 now time is 2018-09-18 22:03:49.168164
+2018/09/18 22:03:49 7152 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:03:49 7152 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/18 22:03:52 16856 auth.py login 17 is_authenticated = False
+2018/09/18 22:03:52 16856 auth.py login 41 redirect to login.html
+2018/09/18 22:03:53 1524 auth.py login 17 is_authenticated = False
+2018/09/18 22:03:53 1524 auth.py login 26 admin.username = admin
+2018/09/18 22:03:54 1524 auth.py login 31 login success
+2018/09/18 22:03:54 2904 auth.py login 17 is_authenticated = True
+2018/09/18 22:03:54 12040 blog.py index 21 request.url = http://127.0.0.1:5000/
+2018/09/18 22:04:00 12360 admin.py manage_posts 143 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/18 22:06:00 8228 utils.py _log 34 
+
+
+
+
+
+
+
+
+
+
+2018/09/18 22:06:00 8228 utils.py _log 35 now time is 2018-09-18 22:06:00.088468
+2018/09/18 22:06:00 8228 utils.py _log 36 --------------------------------------------------------------------------------
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = new_category
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = edit_category
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = delete_category
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = new_post
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = edit_post
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = delete_post
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = comment_enabled
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = delete_comment
+2018/09/18 22:06:00 8228 utils.py stint_login_user 67 func.__name__ = review_comment
+2018/09/19 00:01:45 18264 utils.py _log 35 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:01:45 18264 utils.py _log 36 now time is 2018-09-19 00:01:45.710840
+2018/09/19 00:01:45 18264 utils.py _log 37 --------------------------------------------------------------------------------
+2018/09/19 00:11:39 14696 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:11:39 14696 utils.py _log 37 now time is 2018-09-19 00:11:39.374375
+2018/09/19 00:11:39 14696 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:39:29 1524 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:39:29 1524 utils.py _log 37 now time is 2018-09-19 00:39:29.930995
+2018/09/19 00:39:29 1524 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:39:31 3924 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:39:31 3924 utils.py _log 37 now time is 2018-09-19 00:39:31.263295
+2018/09/19 00:39:31 3924 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:39:44 19376 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:39:44 19376 utils.py _log 37 now time is 2018-09-19 00:39:44.588228
+2018/09/19 00:39:44 19376 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:41:08 17900 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:41:08 17900 utils.py _log 37 now time is 2018-09-19 00:41:08.821973
+2018/09/19 00:41:08 17900 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:41:10 4676 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:41:10 4676 utils.py _log 37 now time is 2018-09-19 00:41:10.162526
+2018/09/19 00:41:10 4676 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:41:57 17820 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:41:57 17820 utils.py _log 37 now time is 2018-09-19 00:41:57.483897
+2018/09/19 00:41:57 17820 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:41:57 17820 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:41:58 16256 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:41:58 16256 utils.py _log 37 now time is 2018-09-19 00:41:58.893622
+2018/09/19 00:41:58 16256 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:41:58 16256 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:42:03 14164 blog.py index 22 request.url = http://127.0.0.1:5000/
+2018/09/19 00:42:08 9416 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:42:08 9416 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 00:43:57 13236 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:43:57 13236 utils.py _log 37 now time is 2018-09-19 00:43:57.006695
+2018/09/19 00:43:57 13236 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:43:57 13236 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:43:58 14984 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:43:58 14984 utils.py _log 37 now time is 2018-09-19 00:43:58.498441
+2018/09/19 00:43:58 14984 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:43:58 14984 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:44:04 19204 blog.py index 22 request.url = http://127.0.0.1:5000/
+2018/09/19 00:44:12 12040 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:44:12 12040 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 00:44:13 12040 utils.py cache_posts 99 cache_posts, post.id = 20
+2018/09/19 00:44:32 19284 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:44:32 19284 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 00:46:12 2660 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:46:12 2660 utils.py _log 37 now time is 2018-09-19 00:46:12.703868
+2018/09/19 00:46:12 2660 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:46:12 2660 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:46:19 7788 blog.py show_post 70 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:46:19 7788 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 00:51:54 12008 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:51:54 12008 utils.py _log 37 now time is 2018-09-19 00:51:54.921191
+2018/09/19 00:51:54 12008 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:51:54 12008 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:52:44 3752 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:52:44 3752 utils.py _log 37 now time is 2018-09-19 00:52:44.443065
+2018/09/19 00:52:44 3752 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:52:44 3752 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:53:17 15468 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:53:17 15468 utils.py _log 37 now time is 2018-09-19 00:53:17.506426
+2018/09/19 00:53:17 15468 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:53:17 15468 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:53:19 15412 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:53:19 15412 utils.py _log 37 now time is 2018-09-19 00:53:19.261939
+2018/09/19 00:53:19 15412 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:53:19 15412 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:53:22 13080 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:53:22 13080 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 00:56:01 15988 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:56:01 15988 utils.py _log 37 now time is 2018-09-19 00:56:01.083837
+2018/09/19 00:56:01 15988 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:56:01 15988 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 00:56:04 16528 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:56:08 18744 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 00:56:09 4360 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 00:56:10 10320 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 00:56:12 19236 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/32
+2018/09/19 00:56:13 8944 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 00:56:14 11372 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/2
+2018/09/19 00:56:15 16124 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 00:56:17 2880 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/2
+2018/09/19 00:58:11 5252 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 00:58:11 5252 utils.py _log 37 now time is 2018-09-19 00:58:11.754309
+2018/09/19 00:58:11 5252 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 00:58:11 5252 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:01:41 16964 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:01:41 16964 utils.py _log 37 now time is 2018-09-19 01:01:41.728305
+2018/09/19 01:01:41 16964 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:01:41 16964 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:01:52 1324 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:01:52 1324 utils.py _log 37 now time is 2018-09-19 01:01:52.221588
+2018/09/19 01:01:52 1324 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:01:52 1324 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:01:57 9920 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:01:57 9920 utils.py _log 37 now time is 2018-09-19 01:01:57.362479
+2018/09/19 01:01:57 9920 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:01:57 9920 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:02:00 15336 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:02:00 15336 utils.py _log 37 now time is 2018-09-19 01:02:00.396813
+2018/09/19 01:02:00 15336 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:02:00 15336 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:02:03 18520 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:02:03 18520 utils.py _log 37 now time is 2018-09-19 01:02:03.258604
+2018/09/19 01:02:03 18520 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:02:03 18520 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:02:12 17004 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:02:12 17004 utils.py _log 37 now time is 2018-09-19 01:02:12.644119
+2018/09/19 01:02:12 17004 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:02:12 17004 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:02:40 4992 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:02:40 4992 utils.py _log 37 now time is 2018-09-19 01:02:40.553161
+2018/09/19 01:02:40 4992 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:02:40 4992 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:02:44 16964 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/2
+2018/09/19 01:02:44 16964 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 2
+2018/09/19 01:02:58 18568 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:02:58 18568 utils.py _log 37 now time is 2018-09-19 01:02:58.563172
+2018/09/19 01:02:58 18568 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:02:58 18568 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:03:01 1264 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/2
+2018/09/19 01:03:01 1264 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 2
+2018/09/19 01:11:49 6328 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:11:49 6328 utils.py _log 37 now time is 2018-09-19 01:11:49.029318
+2018/09/19 01:11:49 6328 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:11:49 6328 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:11:55 13888 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:11:55 13888 utils.py _log 37 now time is 2018-09-19 01:11:55.313876
+2018/09/19 01:11:55 13888 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:11:55 13888 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:12:09 9832 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:12:09 9832 utils.py _log 37 now time is 2018-09-19 01:12:09.041569
+2018/09/19 01:12:09 9832 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:12:09 9832 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:12:16 13692 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/2
+2018/09/19 01:12:16 13692 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 2
+2018/09/19 01:12:42 13948 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 01:12:44 8484 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 01:12:44 8484 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 01:21:43 7200 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:21:43 7200 utils.py _log 37 now time is 2018-09-19 01:21:43.259213
+2018/09/19 01:21:43 7200 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:21:43 7200 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:21:47 19092 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 01:21:47 19092 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 01:22:04 1780 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 01:22:04 1780 utils.py _log 37 now time is 2018-09-19 01:22:04.700776
+2018/09/19 01:22:04 1780 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 01:22:04 1780 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 01:22:07 10728 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 01:22:07 10728 utils.py get_posts_from_cache 115 get_posts_from_cache, post.id = 20
+2018/09/19 20:07:29 1152 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:07:29 1152 utils.py _log 37 now time is 2018-09-19 20:07:29.905183
+2018/09/19 20:07:29 1152 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:07:29 1152 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:07:48 23544 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:07:48 23544 utils.py _log 37 now time is 2018-09-19 20:07:48.406447
+2018/09/19 20:07:48 23544 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:07:48 23544 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:07:49 23180 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:07:49 23180 utils.py _log 37 now time is 2018-09-19 20:07:49.997335
+2018/09/19 20:07:49 23180 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:07:49 23180 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:07:49 23180 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:07:49 23180 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:07:49 23180 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:07:49 23180 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:07:50 23180 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:07:50 23180 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:07:50 23180 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:07:50 23180 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:07:55 11864 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:07:58 17800 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:07:58 17800 utils.py get_posts_from_cache 114 get_posts_from_cache, post.id = 20
+2018/09/19 20:08:25 18800 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:08:25 18800 utils.py _log 37 now time is 2018-09-19 20:08:25.020723
+2018/09/19 20:08:25 18800 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:08:25 18800 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:08:29 988 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:08:29 988 utils.py get_posts_from_cache 114 get_posts_from_cache, post.id = 20
+2018/09/19 20:08:30 988 utils.py cache_posts 99 cache_posts, post.id = 20
+2018/09/19 20:08:37 20144 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:08:38 11744 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:08:39 3140 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:08:40 16536 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:08:45 15396 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:08:45 15396 utils.py get_posts_from_cache 114 get_posts_from_cache, post.id = 20
+2018/09/19 20:11:53 18760 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:11:53 18760 utils.py _log 37 now time is 2018-09-19 20:11:53.612910
+2018/09/19 20:11:53 18760 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:11:53 18760 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:11:58 20364 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:12:00 20456 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/15
+2018/09/19 20:12:00 20456 utils.py get_posts_from_cache 118 get_posts_from_cache, post.id = 15
+2018/09/19 20:13:03 20236 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:13:03 20236 utils.py _log 37 now time is 2018-09-19 20:13:03.267449
+2018/09/19 20:13:03 20236 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:13:03 20236 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:13:11 17744 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/15
+2018/09/19 20:13:11 17744 utils.py get_posts_from_cache 118 get_posts_from_cache, post.id = 15
+2018/09/19 20:13:12 17744 utils.py cache_posts 99 cache_posts, post.id = 15
+2018/09/19 20:13:14 12644 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:13:15 21288 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:13:17 20756 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/4
+2018/09/19 20:13:17 20756 utils.py get_posts_from_cache 118 get_posts_from_cache, post.id = 4
+2018/09/19 20:13:17 20756 utils.py cache_posts 99 cache_posts, post.id = 4
+2018/09/19 20:13:19 22788 blog.py show_category 52 request.url = http://127.0.0.1:5000/category/3
+2018/09/19 20:13:21 12328 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/42
+2018/09/19 20:13:21 12328 utils.py get_posts_from_cache 118 get_posts_from_cache, post.id = 42
+2018/09/19 20:13:21 12328 utils.py cache_posts 99 cache_posts, post.id = 42
+2018/09/19 20:13:23 1320 blog.py show_category 52 request.url = http://127.0.0.1:5000/category/3
+2018/09/19 20:13:23 19896 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:13:25 23200 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/12
+2018/09/19 20:13:25 23200 utils.py get_posts_from_cache 118 get_posts_from_cache, post.id = 12
+2018/09/19 20:13:25 23200 utils.py cache_posts 99 cache_posts, post.id = 12
+2018/09/19 20:17:46 16276 utils.py _log 36 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:17:46 16276 utils.py _log 37 now time is 2018-09-19 20:17:46.344882
+2018/09/19 20:17:46 16276 utils.py _log 38 --------------------------------------------------------------------------------
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = new_category
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = edit_category
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = delete_category
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = new_post
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = edit_post
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = delete_post
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = comment_enabled
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = delete_comment
+2018/09/19 20:17:46 16276 utils.py stint_login_user 69 func.__name__ = review_comment
+2018/09/19 20:20:50 22664 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:20:50 22664 utils.py _log 38 now time is 2018-09-19 20:20:50.189213
+2018/09/19 20:20:50 22664 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:20:50 22664 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:29:09 17040 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:29:09 17040 utils.py _log 38 now time is 2018-09-19 20:29:09.300544
+2018/09/19 20:29:09 17040 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:29:09 17040 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:29:53 13196 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:29:53 13196 utils.py _log 38 now time is 2018-09-19 20:29:53.452874
+2018/09/19 20:29:53 13196 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:29:53 13196 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:31:41 16300 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:31:41 16300 utils.py _log 38 now time is 2018-09-19 20:31:41.413969
+2018/09/19 20:31:41 16300 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:31:41 16300 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:37:20 22256 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:37:20 22256 utils.py _log 38 now time is 2018-09-19 20:37:20.810523
+2018/09/19 20:37:20 22256 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:37:20 22256 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:37:52 13588 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:37:52 13588 utils.py _log 38 now time is 2018-09-19 20:37:52.593585
+2018/09/19 20:37:52 13588 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:37:52 13588 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:52:40 22432 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:52:40 22432 utils.py _log 38 now time is 2018-09-19 20:52:40.712435
+2018/09/19 20:52:40 22432 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:52:40 22432 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:52:46 3416 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:52:48 22552 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:52:48 22552 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:52:49 22552 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:52:56 18568 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:52:56 18568 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:01 23548 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:01 23548 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:02 22692 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:02 22692 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:02 13480 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:53:04 21660 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/27
+2018/09/19 20:53:04 21660 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 27
+2018/09/19 20:53:04 21660 utils.py save_posts_to_cache 106 cache_posts, post.id = 27
+2018/09/19 20:53:08 23264 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/27
+2018/09/19 20:53:08 23264 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 27
+2018/09/19 20:53:21 12948 blog.py show_category 52 request.url = http://127.0.0.1:5000/category/10
+2018/09/19 20:53:24 8060 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:24 8060 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:26 21128 auth.py login 17 is_authenticated = False
+2018/09/19 20:53:26 21128 auth.py login 41 redirect to login.html
+2018/09/19 20:53:28 23336 auth.py login 17 is_authenticated = False
+2018/09/19 20:53:28 23336 auth.py login 26 admin.username = admin
+2018/09/19 20:53:28 23336 auth.py login 31 login success
+2018/09/19 20:53:28 18584 auth.py login 17 is_authenticated = True
+2018/09/19 20:53:28 21176 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:53:31 4828 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:31 4828 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:37 10384 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:53:37 10384 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:53:37 19844 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:37 19844 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:39 6504 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:53:39 6504 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:53:39 15184 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:39 15184 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:47 9504 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:53:47 9504 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:53:47 19604 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:47 19604 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:49 14088 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:49 14088 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:50 13452 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:50 13452 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:53:51 17820 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:53:51 17820 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:53:51 776 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:53:51 776 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:14 7816 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:54:14 7816 utils.py _log 38 now time is 2018-09-19 20:54:14.750897
+2018/09/19 20:54:14 7816 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:54:14 7816 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:54:20 5468 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:20 5468 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:24 14876 auth.py login 17 is_authenticated = False
+2018/09/19 20:54:24 14876 auth.py login 41 redirect to login.html
+2018/09/19 20:54:25 8028 auth.py login 17 is_authenticated = False
+2018/09/19 20:54:25 8028 auth.py login 26 admin.username = admin
+2018/09/19 20:54:25 8028 auth.py login 31 login success
+2018/09/19 20:54:25 10024 auth.py login 17 is_authenticated = True
+2018/09/19 20:54:25 8176 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:54:28 6832 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:28 6832 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:29 15424 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:54:29 15424 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:54:29 15404 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:29 15404 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:29 15404 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:54:30 13956 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:54:30 13956 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:54:30 18612 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:30 18612 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:30 18612 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:54:34 19096 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:54:34 19096 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:54:34 23116 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:34 23116 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:34 23116 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:54:35 11616 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:54:35 11616 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:54:35 8564 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:35 8564 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:35 8564 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:54:38 15940 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:54:38 15940 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:54:38 18756 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:38 18756 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:38 18756 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:54:39 14736 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:54:39 14736 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:54:39 18540 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:54:39 18540 utils.py get_posts_from_cache 136 get_posts_from_cache, post.id = 20
+2018/09/19 20:54:39 18540 utils.py save_posts_to_cache 106 cache_posts, post.id = 20
+2018/09/19 20:54:40 10324 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:55:31 23104 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:55:31 23104 utils.py _log 38 now time is 2018-09-19 20:55:31.157880
+2018/09/19 20:55:31 23104 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:55:31 23104 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:55:37 21088 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:55:39 20148 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:39 20148 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:41 7424 auth.py login 17 is_authenticated = False
+2018/09/19 20:55:41 7424 auth.py login 41 redirect to login.html
+2018/09/19 20:55:42 4992 auth.py login 17 is_authenticated = False
+2018/09/19 20:55:42 4992 auth.py login 26 admin.username = admin
+2018/09/19 20:55:42 4992 auth.py login 31 login success
+2018/09/19 20:55:42 18412 auth.py login 17 is_authenticated = True
+2018/09/19 20:55:42 21732 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:55:44 22420 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:44 22420 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:46 18252 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:55:46 18252 admin.py comment_enabled 219 request.url = http://127.0.0.1:5000/admin/post/comment_enabled/?post_id=20
+2018/09/19 20:55:46 18252 utils.py delete_posts_from_cache 157 delete cache, post_id = 20
+2018/09/19 20:55:46 22468 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:46 22468 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:46 22468 utils.py save_posts_to_cache 106 save cache, post.id = 20
+2018/09/19 20:55:47 4640 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:47 4640 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:48 19512 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:48 19512 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:49 11048 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:49 11048 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:49 9524 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:49 9524 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:49 22412 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:49 22412 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:49 1472 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:49 1472 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:49 23052 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:49 23052 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:50 11696 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:50 11696 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:50 19828 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:50 19828 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:50 1272 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:50 1272 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:50 1884 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:50 1884 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:53 22704 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:53 22704 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:55:56 1056 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:55:56 1056 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:56:00 20032 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:56:00 20032 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:56:05 10800 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:56:05 10800 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:56:10 17672 admin.py manage_posts 151 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/19 20:56:16 4504 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:56:16 4504 admin.py delete_post 203 request.url = http://127.0.0.1:5000/admin/post/delete/34?next=%2Fadmin%2Fpost%2Fmanage%3F
+2018/09/19 20:56:16 4504 utils.py delete_posts_from_cache 157 delete cache, post_id = 34
+2018/09/19 20:56:16 14016 admin.py manage_posts 151 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/19 20:56:26 23204 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:56:26 23204 admin.py edit_post 168 request.url = http://127.0.0.1:5000/admin/post/edit/20
+2018/09/19 20:56:28 14868 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:56:28 14868 admin.py edit_post 168 request.url = http://127.0.0.1:5000/admin/post/edit/20
+2018/09/19 20:56:28 14868 utils.py save_posts_to_cache 106 save cache, post.id = 20
+2018/09/19 20:56:28 22652 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:56:28 22652 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:57:05 22168 utils.py _log 37 
+
+
+
+
+
+
+
+
+
+
+2018/09/19 20:57:05 22168 utils.py _log 38 now time is 2018-09-19 20:57:05.379812
+2018/09/19 20:57:05 22168 utils.py _log 39 --------------------------------------------------------------------------------
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = new_category
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = edit_category
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = delete_category
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = new_post
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = edit_post
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = delete_post
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = comment_enabled
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = delete_comment
+2018/09/19 20:57:05 22168 utils.py stint_login_user 70 func.__name__ = review_comment
+2018/09/19 20:57:49 4836 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/20
+2018/09/19 20:57:49 4836 utils.py get_posts_from_cache 136 get cache, post.id = 20
+2018/09/19 20:57:52 10700 auth.py login 17 is_authenticated = False
+2018/09/19 20:57:52 10700 auth.py login 41 redirect to login.html
+2018/09/19 20:57:53 21484 auth.py login 17 is_authenticated = False
+2018/09/19 20:57:53 21484 auth.py login 26 admin.username = admin
+2018/09/19 20:57:53 21484 auth.py login 31 login success
+2018/09/19 20:57:53 16652 auth.py login 17 is_authenticated = True
+2018/09/19 20:57:53 12596 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:57:56 16300 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage
+2018/09/19 20:57:59 10640 admin.py manage_categories 110 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/19 20:58:00 21556 admin.py manage_posts 151 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/19 20:58:01 17476 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage
+2018/09/19 20:58:05 13548 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage?page=40
+2018/09/19 20:58:07 16080 utils.py wrapper 74 current_user.username = admin
+2018/09/19 20:58:07 16080 admin.py delete_comment 278 request.url = http://127.0.0.1:5000/admin/comment/delete/70?next=%2Fadmin%2Fcomment%2Fmanage%3Fpage%3D40
+2018/09/19 20:58:07 22532 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage?page=40
+2018/09/19 20:58:11 21480 blog.py change_theme 192 request.url = http://127.0.0.1:5000/change-theme/perfect_blue?next=%2Fadmin%2Fcomment%2Fmanage%3Fpage%3D40
+2018/09/19 20:58:11 21480 blog.py change_theme 200 response = <Response 265 bytes [302 FOUND]>
+2018/09/19 20:58:11 1624 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage?page=40
+2018/09/19 20:58:14 22320 blog.py change_theme 192 request.url = http://127.0.0.1:5000/change-theme/black_swan?next=%2Fadmin%2Fcomment%2Fmanage%3Fpage%3D40
+2018/09/19 20:58:14 22320 blog.py change_theme 200 response = <Response 265 bytes [302 FOUND]>
+2018/09/19 20:58:14 11132 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage?page=40
+2018/09/19 20:58:16 21856 admin.py manage_categories 110 request.url = http://127.0.0.1:5000/admin/category/manage
+2018/09/19 20:58:17 1088 admin.py manage_comments 246 request.urlhttp://127.0.0.1:5000/admin/comment/manage
+2018/09/19 20:58:19 18884 admin.py manage_posts 151 request.url = http://127.0.0.1:5000/admin/post/manage
+2018/09/19 20:58:21 16204 auth.py logout 49 user logout
+2018/09/19 20:58:21 23548 blog.py index 23 request.url = http://127.0.0.1:5000/
+2018/09/19 20:58:28 3324 blog.py show_post 71 request.url = http://127.0.0.1:5000/post/2
+2018/09/19 20:58:28 3324 utils.py get_posts_from_cache 136 get cache, post.id = 2
+2018/09/19 20:58:28 3324 utils.py save_posts_to_cache 106 save cache, post.id = 2

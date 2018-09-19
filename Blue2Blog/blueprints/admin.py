@@ -9,6 +9,7 @@ from flask_login import login_required
 
 from Blue2Blog.models import Post, Category, Comment
 from Blue2Blog.utils import logger, redirect_back, stint_login_user
+from Blue2Blog.utils import CacheUtil
 from Blue2Blog.forms import PostForm
 from Blue2Blog.extensions import db
 
@@ -61,6 +62,9 @@ def edit_category():
 
 	info = dict()
 	try:
+		# 如果更新了category的name，那么就删除所有相关的文章缓存
+		for post in category.posts:
+			CacheUtil.delete_posts_from_cache(post.id)
 		db.session.commit()
 		info['success'] = True
 		info['description'] = 'Update Success'
@@ -89,6 +93,7 @@ def delete_category(category_id):
 	for post in posts:
 		# 将所有的post的category设置为默认的
 		post.category = default_category
+		CacheUtil.delete_posts_from_cache(post.id)
 
 	db.session.delete(category)
 	try:
@@ -127,6 +132,9 @@ def new_post():
 		# 添加
 		db.session.add(post)
 		db.session.commit()
+
+		# 需要加到提交之后的位置，不然无法获取post的id
+		CacheUtil.save_posts_to_cache(post, category)
 
 		flash('Post created', 'success')
 
@@ -167,6 +175,8 @@ def edit_post(post_id):
 		post.title = form.title.data
 		post.body = form.body.data
 		post.category = Category.query.get(form.category.data)
+		# 更新缓存
+		CacheUtil.save_posts_to_cache(post, post.category)
 		flash('Post updated', 'success')
 		# 提交
 		db.session.commit()
@@ -194,6 +204,7 @@ def delete_post(post_id):
 	logger.debug('request.url = ' + str(request.url))
 	# 根据id获取，如果不存在，报404错误
 	post = Post.query.get_or_404(post_id)
+	CacheUtil.delete_posts_from_cache(post.id)
 	# 删除
 	db.session.delete(post)
 	db.session.commit()
@@ -220,6 +231,7 @@ def comment_enabled():
 	info['result'] = True
 	post.comment_enabled = not post.comment_enabled
 	try:
+		CacheUtil.delete_posts_from_cache(post.id)
 		db.session.commit()
 	except:
 		info['result'] = False

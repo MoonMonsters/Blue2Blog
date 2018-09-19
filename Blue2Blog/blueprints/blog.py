@@ -4,12 +4,14 @@
 from flask import Blueprint, current_app
 from flask import render_template, request, url_for, flash, redirect, abort, make_response
 from flask_login import current_user
+from sqlalchemy.orm import joinedload_all
 
 from Blue2Blog.models import Post, Category, Comment
 from Blue2Blog.forms import AdminCommentForm, CommentForm
 from Blue2Blog.emails import send_new_comment_mail, send_new_reply_mail
 from Blue2Blog.extensions import db
 from Blue2Blog.utils import logger, redirect_back
+from Blue2Blog.utils import CacheUtil
 
 blog_bp = Blueprint("blog", __name__)
 
@@ -67,8 +69,16 @@ def show_category(category_id):
 @blog_bp.route("/post/<int:post_id>", methods=["GET", "POST"])
 def show_post(post_id):
 	logger.debug('request.url = ' + str(request.url))
-	# 博客内容
-	post = Post.query.get_or_404(post_id)
+
+	try:
+		# 如果文章没有缓存，那么久会报错
+		post = CacheUtil.get_posts_from_cache(post_id)
+	except TypeError:
+		# 博客内容
+		# 文章没有缓存，就从数据库中读取，并且缓存
+		post = Post.query.get_or_404(post_id)
+		category = Category.query.get(post.category.id)
+		CacheUtil.save_posts_to_cache(post, category)
 
 	# 根据post_id获取文章评论
 	page = request.args.get("page", 1, type=int)
@@ -76,13 +86,13 @@ def show_post(post_id):
 	if current_user.is_authenticated:
 		# 如果管理员已经登录，那么将显示所有的评论
 		pagination = (
-			Comment.query.with_parent(post)
+			Comment.query.options(joinedload_all('*')).with_parent(post)
 				.order_by(Comment.timestamp.asc())
 				.paginate(page, per_page)
 		)
 	else:
 		pagination = (
-			Comment.query.with_parent(post)
+			Comment.query.options(joinedload_all('*')).with_parent(post)
 				.filter_by(reviewed=True)  # 没有登录，则过滤出已经审核的评论
 				.order_by(Comment.timestamp.asc())
 				.paginate(page, per_page)
@@ -129,7 +139,7 @@ def show_post(post_id):
 		logger.debug('comment_id = ' + str(comment_id))
 		if comment_id:
 			# 获取被评论的Comment对象
-			replied_comment = Comment.query.get_or_404(comment_id)
+			replied_comment = Comment.query.options(joinedload_all('*')).get_or_404(comment_id)
 			logger.debug('replied_comment.id = ' + str(replied_comment.id))
 			# 管理评论与被评论对象
 			comment.replied_id = replied_comment.id
