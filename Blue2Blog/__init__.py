@@ -7,6 +7,7 @@ import click
 from flask import Flask
 from flask import render_template
 from flask_login import current_user
+from celery import Celery
 
 from Blue2Blog.settings import config
 from Blue2Blog.blueprints.admin import admin_bp
@@ -17,6 +18,7 @@ from Blue2Blog.fakes import fake_admin, fake_categories, fake_comments, fake_pos
 from Blue2Blog.models import Admin, Category, Comment, Post
 from Blue2Blog.emails import send_new_comment_mail
 from Blue2Blog.utils import logger
+from Blue2Blog.celery_main import celery_app
 
 
 def create_app(config_name=None):

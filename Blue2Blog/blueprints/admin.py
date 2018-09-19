@@ -120,6 +120,8 @@ def manage_categories():
 @login_required
 @stint_login_user
 def new_post():
+	# @celery_app.task
+	# def _new_post():
 	logger.debug('request.url = ' + str(request.url))
 	form = PostForm()
 	if form.validate_on_submit():
@@ -145,9 +147,14 @@ def new_post():
 	return render_template('admin/new_post.html', form=form)
 
 
+# return _new_post.apply_async(queue='long_time_task', routing_key='long_time_task').get()
+
+
 @admin_bp.route("/post/manage")
 @login_required
 def manage_posts():
+	# @celery_app.task
+	# def _manage_posts():
 	logger.debug('request.url = ' + str(request.url))
 	# 页数设置
 	page = request.args.get('page', 1, type=int)
@@ -159,6 +166,9 @@ def manage_posts():
 	context.update(pagination=pagination)
 
 	return render_template('admin/manage_posts.html', **context)
+
+
+# return _manage_posts.delay().get()
 
 
 @admin_bp.route('/post/edit/<int:post_id>', methods=['GET', 'POST'])
