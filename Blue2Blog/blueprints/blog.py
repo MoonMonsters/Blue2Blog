@@ -118,6 +118,7 @@ def show_post(post_id):
 		reviewed = False
 	# 从提交的POST请求中读取form数据
 	if form.validate_on_submit():
+		post = Post.query.get(post.id)
 		author = form.author.data
 		email = form.email.data
 		site = form.site.data

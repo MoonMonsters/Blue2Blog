@@ -20,7 +20,9 @@ def send_mail(subject, to, html):
 	# 传入调用_get_current_object()的方法获取到的被代理的程序实例
 	app = current_app._get_current_object()
 	message = Message(subject, recipients=[to], html=html)
-	thr = Thread(target=_send_async_mail, args=(app, message))
+	# with app.app_context():
+	# 	mail.send(message)
+	thr = Thread(target=_send_async_mail, args=[app, message])
 	# 在子线程中发送邮件
 	thr.start()
 	return thr
