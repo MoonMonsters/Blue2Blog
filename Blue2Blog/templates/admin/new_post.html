@@ -14,6 +14,7 @@
 
 {% block scripts %}
     {{ super() }}
-    <script type="text/javascript" src="{{ url_for('static',filename='ckeditor/ckeditor.js') }}">
-    </script>
+    {#    <script type="text/javascript" src="{{ url_for('static',filename='ckeditor/ckeditor.js') }}">#}
+    {#    </script>#}
+    <script src="//cdn.ckeditor.com/4.4.6/full/ckeditor.js"></script>
 {% endblock scripts %}

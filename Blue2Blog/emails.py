@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from threading import Thread
+
 from flask import url_for, current_app
 from flask_mail import Message
 
 from Blue2Blog.extensions import mail
-from Blue2Blog.celery_main import celery_app
 
 
-@celery_app.task
 def _send_async_mail(app, message):
 	# 需要在上下文中操作
 	with app.app_context():
@@ -20,8 +20,10 @@ def send_mail(subject, to, html):
 	# 传入调用_get_current_object()的方法获取到的被代理的程序实例
 	app = current_app._get_current_object()
 	message = Message(subject, recipients=[to], html=html)
-	# 分布式异步发送
-	_send_async_mail.apply_async(args=[app, message], queue='long_time_task', routing_key='long_time_task')
+	thr = Thread(target=_send_async_mail, args=(app, message))
+	# 在子线程中发送邮件
+	thr.start()
+	return thr
 
 
 def send_new_comment_mail(post):

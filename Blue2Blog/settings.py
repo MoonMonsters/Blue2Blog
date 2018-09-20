@@ -13,11 +13,10 @@ class BaseConfig(object):
 	# 是否修改就提交
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-	MAIL_SERVER = 'smtp.sina.com'
-	# SERVER_NAME = '202.108.6.242'
+	MAIL_SERVER = os.getenv('MAIL_SERVER')
 	# SERVER_NAME = MAIL_SERVER
 	MAIL_PORT = 25
-	MAIL_USE_SSL = True
+	MAIL_USE_SSL = False
 	MAIL_USERNAME = os.getenv('MAIL_USERNAME')
 	MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
 	MAIL_DEFAULT_SENDER = ('Blue2Blog Admin', MAIL_USERNAME)
